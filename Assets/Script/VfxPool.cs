@@ -17,95 +17,144 @@ public class VfxPool : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
 
-        for (int i = 0; i < initialSize; i++)
+        // Only prewarm if prefab is assigned
+        if (prefab != null)
         {
-            var p = Instantiate(prefab, transform);
-            p.gameObject.SetActive(false);
-            pool.Enqueue(p);
+            for (int i = 0; i < initialSize; i++)
+            {
+                var p = Instantiate(prefab, transform);
+                p.gameObject.SetActive(false);
+                pool.Enqueue(p);
+            }
         }
     }
 
     void OnDestroy()
     {
-        // mark shutting down so coroutines stop trying to return items
         shuttingDown = true;
     }
 
+    // Existing PlayAt uses the pool's prefab
     public void PlayAt(Vector3 position, Quaternion rotation)
+    {
+        PlayAt(position, rotation, prefab);
+    }
+
+    // New overload: allow passing a prefab to use for this play
+    public void PlayAt(Vector3 position, Quaternion rotation, ParticleSystem overridePrefab)
     {
         if (shuttingDown) return;
 
-        ParticleSystem p;
-        if (pool.Count > 0) p = pool.Dequeue();
-        else
+        // If no prefab provided at all, do nothing
+        if (overridePrefab == null && prefab == null) return;
+
+        // If overridePrefab is provided, instantiate it directly (do not add to pool)
+        if (overridePrefab != null)
         {
-            p = Instantiate(prefab, transform);
-        }
-
-        if (p == null) return;
-
-        // Prepare and play
-        p.transform.position = position;
-        p.transform.rotation = rotation;
-        p.gameObject.SetActive(true);
-
-        // Reset state safely
-        try
-        {
+            ParticleSystem p = Instantiate(overridePrefab, position, rotation);
+            p.gameObject.SetActive(true);
             p.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             p.Clear(true);
             p.time = 0f;
+            p.Play();
+            StartCoroutine(ReturnAndDestroyAfter(p));
+            return;
         }
-        catch { /* if p was destroyed between dequeue and here, bail out */ }
 
-        p.Play();
+        // Otherwise use pooled prefab (prefab != null guaranteed here)
+        ParticleSystem pooled;
+        if (pool.Count > 0) pooled = pool.Dequeue();
+        else pooled = Instantiate(prefab, transform);
 
-        // Start coroutine to return it when finished
-        StartCoroutine(ReturnAfterSafe(p));
+        if (pooled == null) return;
+
+        pooled.transform.position = position;
+        pooled.transform.rotation = rotation;
+        pooled.gameObject.SetActive(true);
+
+        try
+        {
+            pooled.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            pooled.Clear(true);
+            pooled.time = 0f;
+        }
+        catch { }
+
+        pooled.Play();
+        StartCoroutine(ReturnAfterSafe(pooled));
     }
 
-    private IEnumerator ReturnAfterSafe(ParticleSystem p)
+    // Return-and-destroy for one-off instantiates
+    private IEnumerator ReturnAndDestroyAfter(ParticleSystem p)
     {
         if (p == null) yield break;
-
-        // Wait until the particle system is no longer alive (including children)
-        // Use a timeout as a safety net in case IsAlive behaves unexpectedly
-        float timeout = 10f; // generous safety timeout
+        float timeout = 10f;
         float elapsed = 0f;
-
         while (!shuttingDown && p != null && p.IsAlive(true) && elapsed < timeout)
         {
             elapsed += Time.deltaTime;
             yield return null;
         }
-
-        // If pool was destroyed while waiting, just stop
-        if (shuttingDown) yield break;
-
-        // If the particle was destroyed externally, bail out
         if (p == null) yield break;
+        try
+        {
+            p.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
+            p.Clear(true);
+        }
+        catch { }
+        Destroy(p.gameObject);
+    }
 
-        // Safely stop/clear and return to pool
+    private IEnumerator ReturnAfterSafe(ParticleSystem p)
+    {
+        if (p == null) yield break;
+        float timeout = 10f;
+        float elapsed = 0f;
+        while (!shuttingDown && p != null && p.IsAlive(true) && elapsed < timeout)
+        {
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        if (shuttingDown) yield break;
+        if (p == null) yield break;
         try
         {
             p.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             p.Clear(true);
             p.gameObject.SetActive(false);
-
-            // If pool still exists, enqueue; otherwise destroy to avoid orphan objects
             if (Instance != null && Instance == this)
             {
                 pool.Enqueue(p);
             }
             else
             {
-                // pool no longer exists, destroy the particle to avoid leaks
                 Destroy(p.gameObject);
             }
         }
-        catch
+        catch { }
+    }
+
+    // Optional helper: replace the pool's prefab and rebuild pool
+    public void ClearAndSetPrefab(ParticleSystem newPrefab, int newInitialSize = -1)
+    {
+        // destroy existing pooled instances
+        while (pool.Count > 0)
         {
-            // If Stop/Clear throws because object was destroyed, ignore
+            var p = pool.Dequeue();
+            if (p != null) Destroy(p.gameObject);
+        }
+
+        prefab = newPrefab;
+        if (newInitialSize > 0) initialSize = newInitialSize;
+
+        if (prefab != null)
+        {
+            for (int i = 0; i < initialSize; i++)
+            {
+                var p = Instantiate(prefab, transform);
+                p.gameObject.SetActive(false);
+                pool.Enqueue(p);
+            }
         }
     }
 }

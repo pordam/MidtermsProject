@@ -21,6 +21,11 @@ public class Shoot : MonoBehaviour
     [Range(0f, 1f)] public float fireVolume = 1f;
     public ParticleSystem muzzleVfxPrefab;    // optional fallback muzzle VFX
 
+    // add these fields to the top of your Shoot class
+    [Header("Spread")]
+    public float sprayAngle = 5f; // max degrees of random spread (±)
+
+
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
@@ -34,18 +39,29 @@ public class Shoot : MonoBehaviour
         // Trigger squeeze on the gun (DOTween)
         if (gunScript != null) gunScript.TriggerSqueezeDOT();
 
-        // Spawn projectile
-        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, shootPoint.rotation);
+        // Calculate base angle from shootPoint forward
+        float baseAngle = Mathf.Atan2(shootPoint.right.y, shootPoint.right.x) * Mathf.Rad2Deg;
+
+        // Random spread
+        float randomOffset = Random.Range(-sprayAngle, sprayAngle);
+        float finalAngle = baseAngle + randomOffset;
+        Quaternion spawnRot = Quaternion.Euler(0f, 0f, finalAngle);
+
+        // Spawn projectile with spread rotation
+        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, spawnRot);
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
-            rb.linearVelocity = (Vector2)shootPoint.right * shootForce;
+            Vector2 sprayedDirection = new Vector2(Mathf.Cos(finalAngle * Mathf.Deg2Rad),
+                                                   Mathf.Sin(finalAngle * Mathf.Deg2Rad)).normalized;
+            rb.linearVelocity = sprayedDirection * shootForce;
         }
 
-        // Muzzle VFX via pool if available, otherwise fallback prefab
-        if (VfxPool.Instance != null && VfxPool.Instance.prefab != null)
+        // prefer using the muzzleVfxPrefab assigned on this gun
+        if (VfxPool.Instance != null)
         {
-            VfxPool.Instance.PlayAt(shootPoint.position, shootPoint.rotation);
+            // pass the local prefab as an override; if it's null, pool will use its own prefab
+            VfxPool.Instance.PlayAt(shootPoint.position, shootPoint.rotation, muzzleVfxPrefab);
         }
         else if (muzzleVfxPrefab != null)
         {
@@ -76,4 +92,5 @@ public class Shoot : MonoBehaviour
             screenShake.triggershake(shakeDuration, shakeMagnitude);
         }
     }
+
 }

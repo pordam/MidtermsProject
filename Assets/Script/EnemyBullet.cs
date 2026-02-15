@@ -18,7 +18,6 @@ public class EnemyBullet : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("Bullet collided with: " + collision.gameObject.name + " (tag: " + collision.gameObject.tag + ")");
         if (collision.gameObject.CompareTag("Wall"))
         {
 

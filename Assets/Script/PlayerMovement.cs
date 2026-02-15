@@ -31,7 +31,46 @@ public class PlayerController : MonoBehaviour
     public int maxHealth = 100; 
     private int currentHealth;
 
+    [Header("Adjustable muzzle offsets (local to gun pivot)")]
+    public Transform shootPoint;                       // assign muzzle/firepoint here
+    public Vector3 shootLocalOffsetRight = new Vector3(0.5f, 0.05f, 0f);
+    public Vector3 shootLocalOffsetLeft = new Vector3(-0.5f, 0.05f, 0f);
 
+    // Function (drop this into your class, replaces your existing UpdateGun)
+    private void UpdateGun()
+    {
+        if (gunTransform == null || cam == null) return;
+
+        // Get mouse position and direction
+        Vector2 mousePos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+        Vector2 lookDir = mousePos - (Vector2)transform.position;
+        bool facingLeft = lookDir.x < 0f;
+
+        // Keep your original pivot placement and rotation
+        gunTransform.localPosition = facingLeft ? gunOffsetLeft : gunOffsetRight;
+        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
+        gunTransform.rotation = Quaternion.Euler(0f, 0f, angle);
+
+        // Keep your original flip style (as you requested)
+        gunTransform.localScale = facingLeft ? new Vector3(1f, -1f, 1f) : Vector3.one;
+
+        // Choose adjustable local offset depending on facing
+        Vector3 localOffset = facingLeft ? shootLocalOffsetLeft : shootLocalOffsetRight;
+
+        // Compute world position from rotation + local offset (ignores parent negative scale)
+        Quaternion rot = Quaternion.Euler(0f, 0f, angle);
+        Vector3 worldPos = gunTransform.position + rot * localOffset;
+
+        // Apply to shootPoint (if assigned)
+        if (shootPoint != null)
+        {
+            shootPoint.position = worldPos;
+            shootPoint.rotation = rot;
+        }
+
+        // Optional: keep the visible sprite oriented as you currently do (no changes here)
+        // If you want to flip the sprite child instead of rotating it, handle that elsewhere.
+    }
 
 
     private void Awake()
@@ -136,26 +175,6 @@ public class PlayerController : MonoBehaviour
       
 
         animator.SetFloat("Speed", moveInput.sqrMagnitude);
-    }
-
-
-    private void UpdateGun()
-    {
-        if (gunTransform == null) return;
-
-        // Get mouse position
-        Vector2 mousePos = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue());
-        Vector2 lookDir = mousePos - (Vector2)transform.position;
-
-        gunTransform.localPosition = lookDir.x < 0 ? gunOffsetLeft : gunOffsetRight;
-
-        // Calculate angle
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
-
-        gunTransform.rotation = Quaternion.Euler(0, 0, angle);
-
-        // flip gun sprite vertically
-        gunTransform.localScale = lookDir.x < 0 ? new Vector3(1, -1, 1) : Vector3.one;
     }
 
     private void ToggleGun()

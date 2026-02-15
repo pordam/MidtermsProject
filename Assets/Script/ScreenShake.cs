@@ -5,32 +5,32 @@ public class ScreenShake : MonoBehaviour
     private float duration;
     private float magnitude;
 
-    private Vector3 initialpos;
     private float shaketime = 0f;
+    private Vector3 lastOffset = Vector3.zero;
 
-    private void Awake()
+    private void LateUpdate()
     {
-        initialpos = transform.localPosition;
-    }
+        // Remove last frame's offset so we don't accumulate or drift
+        transform.localPosition -= lastOffset;
+        lastOffset = Vector3.zero;
 
-    private void Update()
-    {
-        if (shaketime > 0)
+        if (shaketime > 0f)
         {
             Vector2 shakeOffset = Random.insideUnitCircle * magnitude;
-            transform.localPosition = initialpos + new Vector3(shakeOffset.x, shakeOffset.y, 0f);
+            Vector3 offset3 = new Vector3(shakeOffset.x, shakeOffset.y, 0f);
+
+            // Apply new offset
+            transform.localPosition += offset3;
+            lastOffset = offset3;
 
             shaketime -= Time.deltaTime;
         }
-        else
-        {
-            transform.localPosition = initialpos;
-        }
+        // else nothing to do — camera follow will set the correct position next frame
     }
 
     public void triggershake(float durationOverride = -1f, float magnitudeOverride = -1f)
     {
-        shaketime = durationOverride > 0 ? durationOverride : duration;
-        magnitude = magnitudeOverride > 0 ? magnitudeOverride : magnitude;
+        shaketime = durationOverride > 0f ? durationOverride : duration;
+        magnitude = magnitudeOverride > 0f ? magnitudeOverride : magnitude;
     }
 }
