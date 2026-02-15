@@ -26,8 +26,6 @@ public class PlayerController : MonoBehaviour
 
     public GameObject GunObject;
     private PlayerInputAction actions;
-    public GameObject HandObject;
-    public Transform HandTransform;
 
     // Health
     public int maxHealth = 100; 
@@ -150,7 +148,6 @@ public class PlayerController : MonoBehaviour
         Vector2 lookDir = mousePos - (Vector2)transform.position;
 
         gunTransform.localPosition = lookDir.x < 0 ? gunOffsetLeft : gunOffsetRight;
-        HandTransform.localPosition = lookDir.x < 0 ? gunOffsetLeft : gunOffsetRight;
 
         // Calculate angle
         float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg;
@@ -166,7 +163,6 @@ public class PlayerController : MonoBehaviour
         hasGun = !hasGun; // toggle gun
         animator.SetBool("hasGun", hasGun);
         GunObject.SetActive(hasGun); // show/hide gun sprite
-        HandObject.SetActive(hasGun); // show/hide hand sprite
     }
 
 }
