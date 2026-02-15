@@ -1659,9 +1659,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 1061524346342580686, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
+      propertyPath: fireSfx
+      value: 
+      objectReference: {fileID: 8300000, guid: 4f05e10871e641c489720fd07cc74497, type: 3}
+    - target: {fileID: 1061524346342580686, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
       propertyPath: gunScript
       value: 
       objectReference: {fileID: 645996549}
+    - target: {fileID: 1061524346342580686, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
+      propertyPath: fireVolume
+      value: 0.373
+      objectReference: {fileID: 0}
     - target: {fileID: 1061524346342580686, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
       propertyPath: shootForce
       value: 10
@@ -1678,6 +1686,14 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 2064168374}
+    - target: {fileID: 6010131513428945829, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
+      propertyPath: squeezeX
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 6010131513428945829, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
+      propertyPath: squeezeDuration
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 6390052406961558311, guid: d31de22a322340f4aab25ce2232831d5, type: 3}
       propertyPath: m_Name
       value: Player
