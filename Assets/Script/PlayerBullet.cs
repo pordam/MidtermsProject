@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
 
     [Header("Effects (fallback)")]
     public ParticleSystem hitVfxPrefab;
+    public ParticleSystem gunFlashPrefab;
     public AudioClip hitSfx;
     [Range(0f, 1f)] public float sfxVolume = 1f;
 
@@ -79,6 +80,7 @@ public class Bullet : MonoBehaviour
 
     private void PlayHitEffects(Vector3 position)
     {
+        // 1) Impact / explosion FX (existing)
         if (VfxPool.Instance != null && VfxPool.Instance.prefab != null)
         {
             VfxPool.Instance.PlayAt(position, Quaternion.identity);
@@ -90,6 +92,15 @@ public class Bullet : MonoBehaviour
             Destroy(vfx.gameObject, vfx.main.duration + vfx.main.startLifetime.constantMax);
         }
 
+        // 2) Gun flash at impact (separate instance)
+        if (gunFlashPrefab != null)
+        {
+            ParticleSystem flash = Instantiate(gunFlashPrefab, position, Quaternion.identity);
+            flash.Play();
+            Destroy(flash.gameObject, flash.main.duration + flash.main.startLifetime.constantMax);
+        }
+
+        // Audio
         if (AudioManager.Instance != null)
         {
             AudioManager.Instance.PlaySfx(hitSfx, sfxVolume);
@@ -99,6 +110,7 @@ public class Bullet : MonoBehaviour
             AudioSource.PlayClipAtPoint(hitSfx, position, sfxVolume);
         }
     }
+
 
     private void Disable()
     {

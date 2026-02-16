@@ -110,6 +110,7 @@ MonoBehaviour:
   lifetime: 2
   damage: 1
   hitVfxPrefab: {fileID: 8313461624141038352, guid: f0384521ce89f844294347bc8b347501, type: 3}
+  gunFlashPrefab: {fileID: 4384102375592056067, guid: 188bd186b3ca0b349a1c5ff494a4e36c, type: 3}
   hitSfx: {fileID: 8300000, guid: e1d5ea78316fc534fb982ae1ea6a5909, type: 3}
   sfxVolume: 0.087
 --- !u!50 &-5439578825520246838

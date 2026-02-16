@@ -20,11 +20,11 @@ public class Shoot : MonoBehaviour
     public AudioClip fireSfx;                 // firing sound
     [Range(0f, 1f)] public float fireVolume = 1f;
     public ParticleSystem muzzleVfxPrefab;    // optional fallback muzzle VFX
+    public ParticleSystem gunFlashPrefab;     // small gun flash prefab to also play at impact
 
     // add these fields to the top of your Shoot class
     [Header("Spread")]
     public float sprayAngle = 5f; // max degrees of random spread (±)
-
 
     void Update()
     {
@@ -48,7 +48,13 @@ public class Shoot : MonoBehaviour
         Quaternion spawnRot = Quaternion.Euler(0f, 0f, finalAngle);
 
         // Spawn projectile with spread rotation
-        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, spawnRot);
+        GameObject projectile = Instantiate(projectilePrefab, shootPoint.position, spawnRot); // assign gun flash prefab to the bullet so it can play it on impact
+        var bulletScript = projectile.GetComponent<Bullet>();
+        
+        if (bulletScript != null) {
+            bulletScript.gunFlashPrefab = gunFlashPrefab;
+        }
+
         Rigidbody2D rb = projectile.GetComponent<Rigidbody2D>();
         if (rb != null)
         {
@@ -68,6 +74,12 @@ public class Shoot : MonoBehaviour
             ParticleSystem vfx = Instantiate(muzzleVfxPrefab, shootPoint.position, shootPoint.rotation);
             vfx.Play();
             Destroy(vfx.gameObject, vfx.main.duration + vfx.main.startLifetime.constantMax);
+        }
+
+        if (gunFlashPrefab != null) { 
+            ParticleSystem flash = Instantiate(gunFlashPrefab, shootPoint.position, shootPoint.rotation);
+            flash.Play(); 
+            Destroy(flash.gameObject, flash.main.duration + flash.main.startLifetime.constantMax);
         }
 
         // Play firing SFX via AudioManager (randomized pitch handled there)

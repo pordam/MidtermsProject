@@ -48,7 +48,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private bool useFullFreeze = true;    // if false, uses tiny timescale instead of 0
 
     [Header("Hit Squeeze")]
-    [SerializeField] private float squeezeX = 0.6f;           // target X scale multiplier (0.6 = 40% narrower)
+    [SerializeField] private float squeezeY = 0.6f;           // target X scale multiplier (0.6 = 40% narrower)
     [SerializeField] private float squeezeInDuration = 0.04f; // unscaled seconds to squeeze in
     [SerializeField] private float squeezeOutDuration = 0.08f;// unscaled seconds to return to normal
     private Vector3 spriteOriginalScale = Vector3.one;
@@ -91,7 +91,7 @@ public class Enemy : MonoBehaviour
 
         Transform t = spriteRenderer.transform;
         Vector3 start = t.localScale;
-        Vector3 target = new Vector3(spriteOriginalScale.x * squeezeX, spriteOriginalScale.y, spriteOriginalScale.z);
+        Vector3 target = new Vector3(spriteOriginalScale.x, spriteOriginalScale.y * squeezeY, spriteOriginalScale.z);
 
         // squeeze in (unscaled)
         float ttime = 0f;
@@ -116,7 +116,6 @@ public class Enemy : MonoBehaviour
         t.localScale = spriteOriginalScale;
         squeezeCoroutine = null;
     }
-
 
     public virtual void Shoot()
     {
