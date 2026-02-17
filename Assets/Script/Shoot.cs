@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class Shoot : MonoBehaviour
 {
@@ -26,11 +27,25 @@ public class Shoot : MonoBehaviour
     [Header("Spread")]
     public float sprayAngle = 5f; // max degrees of random spread (±)
 
+    [Header("Casing Eject")]
+    public Transform casingEjectPoint;
+
+
     void Update()
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             ShootProjectile();
+        }
+    }
+
+    void OnDrawGizmos()
+    {
+        if (casingEjectPoint != null)
+        {
+            Gizmos.color = Color.yellow;
+            Gizmos.DrawSphere(casingEjectPoint.position, 0.05f);
+            Gizmos.DrawLine(casingEjectPoint.position, casingEjectPoint.position + casingEjectPoint.right * 0.5f);
         }
     }
 
@@ -75,6 +90,15 @@ public class Shoot : MonoBehaviour
             vfx.Play();
             Destroy(vfx.gameObject, vfx.main.duration + vfx.main.startLifetime.constantMax);
         }
+
+        if (ShellParticleSystemHandler.Instance != null)
+        {
+            Vector3 spawnPos = casingEjectPoint != null ? casingEjectPoint.position : shootPoint.position;
+            Vector3 ejectDir = casingEjectPoint != null ? casingEjectPoint.right : (shootPoint.right + shootPoint.up * 0.3f).normalized;
+            ShellParticleSystemHandler.Instance.SpawnShell(spawnPos, ejectDir);
+            Debug.Log("Spawning shell at " + spawnPos);
+        }
+
 
         if (gunFlashPrefab != null) { 
             ParticleSystem flash = Instantiate(gunFlashPrefab, shootPoint.position, shootPoint.rotation);

@@ -17,8 +17,8 @@ TagManager:
   - EnemyBullet
   - PlayerBullet
   - Enemy
-  - 
-  - 
+  - Foreground
+  - tilemap
   - 
   - 
   - 

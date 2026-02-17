@@ -1,0 +1,3380 @@
+fileFormatVersion: 2
+guid: 6a909f67d8548df4d9bb7759558c281f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6571856782806053166
+    second: Kv5UnDX_0
+  - first:
+      213: -6533853965694301493
+    second: Kv5UnDX_1
+  - first:
+      213: 2399260973475245421
+    second: Kv5UnDX_2
+  - first:
+      213: -1704250280054288324
+    second: Kv5UnDX_3
+  - first:
+      213: -4357400663152452399
+    second: Kv5UnDX_4
+  - first:
+      213: 3785217896463781266
+    second: Kv5UnDX_5
+  - first:
+      213: 160113753491250711
+    second: Kv5UnDX_6
+  - first:
+      213: 1668991613653720434
+    second: Kv5UnDX_7
+  - first:
+      213: 2112918554786631718
+    second: Kv5UnDX_8
+  - first:
+      213: -3787322989041556959
+    second: Kv5UnDX_9
+  - first:
+      213: -1694206535938877939
+    second: Kv5UnDX_10
+  - first:
+      213: -6018123095018527248
+    second: Kv5UnDX_11
+  - first:
+      213: 4895962461343371487
+    second: Kv5UnDX_12
+  - first:
+      213: -7074381828707480935
+    second: Kv5UnDX_13
+  - first:
+      213: -6374917828703770897
+    second: Kv5UnDX_14
+  - first:
+      213: 5147425267122889981
+    second: Kv5UnDX_15
+  - first:
+      213: 1457587967172653422
+    second: Kv5UnDX_16
+  - first:
+      213: 4330177826303397143
+    second: Kv5UnDX_17
+  - first:
+      213: 6265144846957557095
+    second: Kv5UnDX_18
+  - first:
+      213: 7685873653514050797
+    second: Kv5UnDX_19
+  - first:
+      213: -5781692526489680517
+    second: Kv5UnDX_20
+  - first:
+      213: -8601289268892339246
+    second: Kv5UnDX_21
+  - first:
+      213: -3339832207347376881
+    second: Kv5UnDX_22
+  - first:
+      213: -2523246055150552444
+    second: Kv5UnDX_23
+  - first:
+      213: 6981725490908211784
+    second: Kv5UnDX_24
+  - first:
+      213: 6019463948889311009
+    second: Kv5UnDX_25
+  - first:
+      213: -3236243855845876716
+    second: Kv5UnDX_26
+  - first:
+      213: 2816458672913923138
+    second: Kv5UnDX_27
+  - first:
+      213: -7523578676008387025
+    second: Kv5UnDX_28
+  - first:
+      213: 6953546823322915852
+    second: Kv5UnDX_29
+  - first:
+      213: 2722112551247340616
+    second: Kv5UnDX_30
+  - first:
+      213: -6110506793252805244
+    second: Kv5UnDX_31
+  - first:
+      213: 2440810410643355867
+    second: Kv5UnDX_32
+  - first:
+      213: 7690845992290628918
+    second: Kv5UnDX_33
+  - first:
+      213: -4472518266109425067
+    second: Kv5UnDX_34
+  - first:
+      213: -1616034521274517163
+    second: Kv5UnDX_35
+  - first:
+      213: -5714457853185726075
+    second: Kv5UnDX_36
+  - first:
+      213: -8420831827666700117
+    second: Kv5UnDX_37
+  - first:
+      213: -3940446604669394021
+    second: Kv5UnDX_38
+  - first:
+      213: -5798162049152442406
+    second: Kv5UnDX_39
+  - first:
+      213: 7053475691228030991
+    second: Kv5UnDX_40
+  - first:
+      213: 6849973346730553240
+    second: Kv5UnDX_41
+  - first:
+      213: -3289947304552758586
+    second: Kv5UnDX_42
+  - first:
+      213: -3937803759959300369
+    second: Kv5UnDX_43
+  - first:
+      213: 7338523787077964520
+    second: Kv5UnDX_44
+  - first:
+      213: -7663692260543249114
+    second: Kv5UnDX_45
+  - first:
+      213: 2427728587085873617
+    second: Kv5UnDX_46
+  - first:
+      213: 8093082257601052891
+    second: Kv5UnDX_47
+  - first:
+      213: 1198501730430046773
+    second: Kv5UnDX_48
+  - first:
+      213: -3819371531604475596
+    second: Kv5UnDX_49
+  - first:
+      213: -1700240177910331446
+    second: Kv5UnDX_50
+  - first:
+      213: 8286563345045769381
+    second: Kv5UnDX_51
+  - first:
+      213: -141628788619996312
+    second: Kv5UnDX_52
+  - first:
+      213: 8049588248820036709
+    second: Kv5UnDX_53
+  - first:
+      213: 6139871298447879987
+    second: Kv5UnDX_54
+  - first:
+      213: 6044988530266003679
+    second: Kv5UnDX_55
+  - first:
+      213: -349787060304402024
+    second: Kv5UnDX_56
+  - first:
+      213: 7416419770518530195
+    second: Kv5UnDX_57
+  - first:
+      213: -879888818644387577
+    second: Kv5UnDX_58
+  - first:
+      213: 1475802299430555804
+    second: Kv5UnDX_59
+  - first:
+      213: 2094476701906649884
+    second: Kv5UnDX_60
+  - first:
+      213: 6740714520402559250
+    second: Kv5UnDX_61
+  - first:
+      213: -2656689072566935542
+    second: Kv5UnDX_62
+  - first:
+      213: 7394756635532986108
+    second: Kv5UnDX_63
+  - first:
+      213: -4883405038863504849
+    second: Kv5UnDX_64
+  - first:
+      213: -3836261400670457408
+    second: Kv5UnDX_65
+  - first:
+      213: -5185586245113810874
+    second: Kv5UnDX_66
+  - first:
+      213: 3723819470135983134
+    second: Kv5UnDX_67
+  - first:
+      213: 7209015430590763100
+    second: Kv5UnDX_68
+  - first:
+      213: 873469402458647729
+    second: Kv5UnDX_69
+  - first:
+      213: 8322169750356258820
+    second: Kv5UnDX_70
+  - first:
+      213: -6791040116167489067
+    second: Kv5UnDX_71
+  - first:
+      213: 1790894750329694756
+    second: Kv5UnDX_72
+  - first:
+      213: -4384006165837592571
+    second: Kv5UnDX_73
+  - first:
+      213: -6582266807729779151
+    second: Kv5UnDX_74
+  - first:
+      213: -2308605552376499895
+    second: Kv5UnDX_75
+  - first:
+      213: 2422460304571874984
+    second: Kv5UnDX_76
+  - first:
+      213: 3875656483616939996
+    second: Kv5UnDX_77
+  - first:
+      213: 3900553079347373288
+    second: Kv5UnDX_78
+  - first:
+      213: 195813885329000787
+    second: Kv5UnDX_79
+  - first:
+      213: 6238314080277937354
+    second: Kv5UnDX_80
+  - first:
+      213: 8745120458020607981
+    second: Kv5UnDX_81
+  - first:
+      213: 976890172013038634
+    second: Kv5UnDX_82
+  - first:
+      213: -1443108018709938358
+    second: Kv5UnDX_83
+  - first:
+      213: -1968045630588394594
+    second: Kv5UnDX_84
+  - first:
+      213: -474019665459067572
+    second: Kv5UnDX_85
+  - first:
+      213: 448825140529489032
+    second: Kv5UnDX_86
+  - first:
+      213: 3934500066144864010
+    second: Kv5UnDX_87
+  - first:
+      213: -6161262101194100677
+    second: Kv5UnDX_88
+  - first:
+      213: -6331882057502703519
+    second: Kv5UnDX_89
+  - first:
+      213: -4927382183049370119
+    second: Kv5UnDX_90
+  - first:
+      213: -2402828190525886713
+    second: Kv5UnDX_91
+  - first:
+      213: -4086960385283303161
+    second: Kv5UnDX_92
+  - first:
+      213: -1304756455089958679
+    second: Kv5UnDX_93
+  - first:
+      213: -7424547459172292801
+    second: Kv5UnDX_94
+  - first:
+      213: 1807356548480920968
+    second: Kv5UnDX_95
+  - first:
+      213: -603698567218322164
+    second: Kv5UnDX_96
+  - first:
+      213: 7814308261643051576
+    second: Kv5UnDX_97
+  - first:
+      213: -3453098605838864373
+    second: Kv5UnDX_98
+  - first:
+      213: 2841509142663177050
+    second: Kv5UnDX_99
+  - first:
+      213: 3730352266504461405
+    second: Kv5UnDX_100
+  - first:
+      213: -4924778278279208650
+    second: Kv5UnDX_101
+  - first:
+      213: -6639058590439376024
+    second: Kv5UnDX_102
+  - first:
+      213: -312327213458223130
+    second: Kv5UnDX_103
+  - first:
+      213: 5155309696429402250
+    second: Kv5UnDX_104
+  - first:
+      213: -1801689762318361848
+    second: Kv5UnDX_105
+  - first:
+      213: -8465599790720253882
+    second: Kv5UnDX_106
+  - first:
+      213: -8610384296601104528
+    second: Kv5UnDX_107
+  - first:
+      213: -808525348186205729
+    second: Kv5UnDX_108
+  - first:
+      213: 9068958548305180873
+    second: Kv5UnDX_109
+  - first:
+      213: -9210838424244121113
+    second: Kv5UnDX_110
+  - first:
+      213: -719944499436120996
+    second: Kv5UnDX_111
+  - first:
+      213: -3321107557240656172
+    second: Kv5UnDX_112
+  - first:
+      213: -208854576779856735
+    second: Kv5UnDX_113
+  - first:
+      213: -4111793315781709266
+    second: Kv5UnDX_114
+  - first:
+      213: -4857320660099313567
+    second: Kv5UnDX_115
+  - first:
+      213: 2080134735693140496
+    second: Kv5UnDX_116
+  - first:
+      213: 2502301983655322673
+    second: Kv5UnDX_117
+  - first:
+      213: -1869277244160798237
+    second: Kv5UnDX_118
+  - first:
+      213: -6290178315480874557
+    second: Kv5UnDX_119
+  - first:
+      213: 1107556715112467162
+    second: Kv5UnDX_120
+  - first:
+      213: -3538677646908927209
+    second: Kv5UnDX_121
+  - first:
+      213: -8799717161426298768
+    second: Kv5UnDX_122
+  - first:
+      213: -5813968235551682752
+    second: Kv5UnDX_123
+  - first:
+      213: -8129230827764809878
+    second: Kv5UnDX_124
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kv5UnDX_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 159
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2175edbcece33b50800000000000000
+      internalID: 6571856782806053166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 174
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca8380af661355a0800000000000000
+      internalID: -6533853965694301493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_2
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d237fb423eb4120800000000000000
+      internalID: 2399260973475245421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c30110956694958e0800000000000000
+      internalID: -1704250280054288324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_4
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dc1fb0fe276783c0800000000000000
+      internalID: -4357400663152452399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 174
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dcc243f9bc78430800000000000000
+      internalID: 3785217896463781266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71e10884c96d83200800000000000000
+      internalID: 160113753491250711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_7
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27d9fe8a703792710800000000000000
+      internalID: 1668991613653720434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62093691b38925d10800000000000000
+      internalID: 2112918554786631718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_9
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122e18cbec9b07bc0800000000000000
+      internalID: -3787322989041556959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06d731c128fc78e0800000000000000
+      internalID: -1694206535938877939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f5a8d23ee45b7ca0800000000000000
+      internalID: -6018123095018527248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_12
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd0d40e2be3f1f340800000000000000
+      internalID: 4895962461343371487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 174
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a896e553fb2dd90800000000000000
+      internalID: -7074381828707480935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_14
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6aec3b20eb787a0800000000000000
+      internalID: -6374917828703770897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_15
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4eaba12045f6740800000000000000
+      internalID: 5147425267122889981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_16
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b53498846a3410800000000000000
+      internalID: 1457587967172653422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_17
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d461f6ac1e71c30800000000000000
+      internalID: 4330177826303397143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_18
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 174
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 765364d4b0442f650800000000000000
+      internalID: 6265144846957557095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_19
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec1d3acd55b9aa60800000000000000
+      internalID: 7685873653514050797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_20
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b754d06a74d43cfa0800000000000000
+      internalID: -5781692526489680517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_21
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d3fa454bf412a880800000000000000
+      internalID: -8601289268892339246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_22
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d96a77d4886a1d0800000000000000
+      internalID: -3339832207347376881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_23
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 174
+        width: 9
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a78d1e411abfcd0800000000000000
+      internalID: -2523246055150552444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_24
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aafdcd75214e060800000000000000
+      internalID: 6981725490908211784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 174
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12741dba19e698350800000000000000
+      internalID: 6019463948889311009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_26
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c14c50c5d8613d0800000000000000
+      internalID: -3236243855845876716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_27
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c3a93ad32161720800000000000000
+      internalID: 2816458672913923138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_28
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2ef0d84e01e69790800000000000000
+      internalID: -7523578676008387025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_29
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04553d8ef5ff7060800000000000000
+      internalID: 6953546823322915852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_30
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844eab761f2e6c520800000000000000
+      internalID: 2722112551247340616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_31
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 174
+        width: 9
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4852e86427e133ba0800000000000000
+      internalID: -6110506793252805244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8f872f2208fd120800000000000000
+      internalID: 2440810410643355867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_33
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63538b0aeaf5bba60800000000000000
+      internalID: 7690845992290628918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_34
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55a0a19555c6ee1c0800000000000000
+      internalID: -4472518266109425067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_35
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 142
+        width: 10
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559f9ae3a21b299e0800000000000000
+      internalID: -1616034521274517163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_36
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5896ce8ebda22b0b0800000000000000
+      internalID: -5714457853185726075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_37
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba87f967112332b80800000000000000
+      internalID: -8420831827666700117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_38
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 174
+        width: 10
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b936940c0b8b059c0800000000000000
+      internalID: -3940446604669394021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_39
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf1e16165ac88fa0800000000000000
+      internalID: -5798162049152442406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_40
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f08ef7f25caf2e160800000000000000
+      internalID: 7053475691228030991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_41
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89fa4c4577eff0f50800000000000000
+      internalID: 6849973346730553240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 133
+        width: 12
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2016e7b52c752d0800000000000000
+      internalID: -3289947304552758586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_43
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6ad6cf75c1a59c0800000000000000
+      internalID: -3937803759959300369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_44
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 174
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e25980d08ca7d560800000000000000
+      internalID: 7338523787077964520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_45
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625c8663e7815a590800000000000000
+      internalID: -7663692260543249114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_46
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 174
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1805c894601b120800000000000000
+      internalID: 2427728587085873617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_47
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0c35e2f67605070800000000000000
+      internalID: 8093082257601052891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_48
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53259f059fee1a010800000000000000
+      internalID: 1198501730430046773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_49
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431c971f3dddefac0800000000000000
+      internalID: -3819371531604475596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_50
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 168
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7cec201988768e0800000000000000
+      internalID: -1700240177910331446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_51
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 168
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5acc93e4579cff270800000000000000
+      internalID: 8286563345045769381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_52
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 160
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 863165cfd55d80ef0800000000000000
+      internalID: -141628788619996312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 150
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564b31f1dd1e5bf60800000000000000
+      internalID: 8049588248820036709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 159
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f2a9e5a64353550800000000000000
+      internalID: 6139871298447879987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_55
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 159
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8d0d16a0d14e350800000000000000
+      internalID: 6044988530266003679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_56
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 158
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 899278b958e452bf0800000000000000
+      internalID: -349787060304402024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_57
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 158
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398e0f6cc7a6ce660800000000000000
+      internalID: 7416419770518530195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_58
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 156
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 709fcd208c10ac3f0800000000000000
+      internalID: -879888818644387577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_59
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 155
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9053484f5a1b7410800000000000000
+      internalID: 1475802299430555804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_60
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 155
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c134a7f9673111d10800000000000000
+      internalID: 2094476701906649884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_61
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 154
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21189e87424db8d50800000000000000
+      internalID: 6740714520402559250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_62
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 153
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a006cfe3d5b812bd0800000000000000
+      internalID: -2656689072566935542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_63
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 153
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6086d1bf37f9660800000000000000
+      internalID: 7394756635532986108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_64
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 146
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2a20349df8aa3cb0800000000000000
+      internalID: -4883405038863504849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_65
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 145
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1be7bd49cd2cac0800000000000000
+      internalID: -3836261400670457408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_66
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 145
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640f6d3d8c81908b0800000000000000
+      internalID: -5185586245113810874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_67
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 147
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c7325141aada330800000000000000
+      internalID: 3723819470135983134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_68
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 146
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c501ca0d6519b0460800000000000000
+      internalID: 7209015430590763100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_69
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 146
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc68bf2bcf2f1c00800000000000000
+      internalID: 873469402458647729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_70
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 143
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4007c729b494e7370800000000000000
+      internalID: 8322169750356258820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_71
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 142
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9c86caef061c1a0800000000000000
+      internalID: -6791040116167489067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_72
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 134
+        width: 11
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42a638f69498ad810800000000000000
+      internalID: 1790894750329694756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_73
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 133
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508c020ae91e823c0800000000000000
+      internalID: -4384006165837592571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_74
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 139
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e0c64763717a4a0800000000000000
+      internalID: -6582266807729779151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_75
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 135
+        width: 31
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 941ba1c4b7f26ffd0800000000000000
+      internalID: -2308605552376499895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_76
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 129
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aebd70ffce4e9120800000000000000
+      internalID: 2422460304571874984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_77
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 150
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf5d69a90919c530800000000000000
+      internalID: 3875656483616939996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_78
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 148
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e46e021c5c812630800000000000000
+      internalID: 3900553079347373288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_79
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 148
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359cf15f0bba7b200800000000000000
+      internalID: 195813885329000787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_80
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 142
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accb840aa91f29650800000000000000
+      internalID: 6238314080277937354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 142
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7d15219b8ec5970800000000000000
+      internalID: 8745120458020607981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_82
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 138
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c48678f6c9e8d00800000000000000
+      internalID: 976890172013038634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_83
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 138
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fb64427ec09fbe0800000000000000
+      internalID: -1443108018709938358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_84
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 122
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e93e4071de810b4e0800000000000000
+      internalID: -1968045630588394594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_85
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 122
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4543cf20a1fb69f0800000000000000
+      internalID: -474019665459067572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_86
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 124
+        width: 9
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884668b561c8a3600800000000000000
+      internalID: 448825140529489032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_87
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 124
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07c05bd6f62a9630800000000000000
+      internalID: 3934500066144864010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_88
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 116
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30bf3243ccce7aa0800000000000000
+      internalID: -6161262101194100677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_89
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 116
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160c1e201d2a028a0800000000000000
+      internalID: -6331882057502703519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_90
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 98
+        width: 11
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5e0cac20c6e9bb0800000000000000
+      internalID: -4927382183049370119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_91
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 98
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fe86fcd7077aed0800000000000000
+      internalID: -2402828190525886713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_92
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 94
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7095818ee233847c0800000000000000
+      internalID: -4086960385283303161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_93
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 90
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e017ffbae294ede0800000000000000
+      internalID: -1304756455089958679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_94
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 43
+        width: 17
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37a10e3c65b6f890800000000000000
+      internalID: -7424547459172292801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_95
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 42
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88d6eae7435051910800000000000000
+      internalID: 1807356548480920968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_96
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 42
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c052a850a5b3f97f0800000000000000
+      internalID: -603698567218322164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_97
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 42
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83262a446fff17c60800000000000000
+      internalID: 7814308261643051576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_98
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 40
+        width: 11
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00f3900d112410d0800000000000000
+      internalID: -3453098605838864373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_99
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 39
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a53a672a2811f6720800000000000000
+      internalID: 2841509142663177050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_100
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 39
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c52144f9fd4c330800000000000000
+      internalID: 3730352266504461405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_101
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 39
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631ab9d9f3ca7abb0800000000000000
+      internalID: -4924778278279208650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_102
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 48
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bfad123635dd3a0800000000000000
+      internalID: -6639058590439376024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_103
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 9
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef822cdd046aabf0800000000000000
+      internalID: -312327213458223130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_104
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 47
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a882dcadad65b8740800000000000000
+      internalID: 5155309696429402250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_105
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 47
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b5e89f4bc1ff6e0800000000000000
+      internalID: -1801689762318361848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_106
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6408f7fc7d5248a80800000000000000
+      internalID: -8465599790720253882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_107
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 48
+        width: 16
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07f4d7d1a15c18880800000000000000
+      internalID: -8610384296601104528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_108
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 47
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd15675ca7a87c4f0800000000000000
+      internalID: -808525348186205729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_109
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 47
+        width: 16
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c8f87210c96bdd70800000000000000
+      internalID: 9068958548305180873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_110
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 47
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e1196711478c2080800000000000000
+      internalID: -9210838424244121113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_111
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 17
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c541d1dca4e3206f0800000000000000
+      internalID: -719944499436120996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_112
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 3
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de2ecdc54e09e1d0800000000000000
+      internalID: -3321107557240656172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_113
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a472557edff91df0800000000000000
+      internalID: -208854576779856735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_114
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 9
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e227107b3c9ffe6c0800000000000000
+      internalID: -4111793315781709266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_115
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 9
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1605d964894579cb0800000000000000
+      internalID: -4857320660099313567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_116
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012d0f5658f1edc10800000000000000
+      internalID: 2080134735693140496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_117
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134e7887566f9b220800000000000000
+      internalID: 2502301983655322673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_118
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 9
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e11313104efe06e0800000000000000
+      internalID: -1869277244160798237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_119
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1c5eb162cc4b8a0800000000000000
+      internalID: -6290178315480874557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_120
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 3
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada80ecd6f4de5f00800000000000000
+      internalID: 1107556715112467162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_121
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713d069cd6714eec0800000000000000
+      internalID: -3538677646908927209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_122
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 9
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078d6455ddf11e580800000000000000
+      internalID: -8799717161426298768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_123
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f898881b2a05fa0800000000000000
+      internalID: -5813968235551682752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kv5UnDX_124
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 3
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f7ce5f1ab2f2f80800000000000000
+      internalID: -8129230827764809878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Kv5UnDX_0: 6571856782806053166
+      Kv5UnDX_1: -6533853965694301493
+      Kv5UnDX_10: -1694206535938877939
+      Kv5UnDX_100: 3730352266504461405
+      Kv5UnDX_101: -4924778278279208650
+      Kv5UnDX_102: -6639058590439376024
+      Kv5UnDX_103: -312327213458223130
+      Kv5UnDX_104: 5155309696429402250
+      Kv5UnDX_105: -1801689762318361848
+      Kv5UnDX_106: -8465599790720253882
+      Kv5UnDX_107: -8610384296601104528
+      Kv5UnDX_108: -808525348186205729
+      Kv5UnDX_109: 9068958548305180873
+      Kv5UnDX_11: -6018123095018527248
+      Kv5UnDX_110: -9210838424244121113
+      Kv5UnDX_111: -719944499436120996
+      Kv5UnDX_112: -3321107557240656172
+      Kv5UnDX_113: -208854576779856735
+      Kv5UnDX_114: -4111793315781709266
+      Kv5UnDX_115: -4857320660099313567
+      Kv5UnDX_116: 2080134735693140496
+      Kv5UnDX_117: 2502301983655322673
+      Kv5UnDX_118: -1869277244160798237
+      Kv5UnDX_119: -6290178315480874557
+      Kv5UnDX_12: 4895962461343371487
+      Kv5UnDX_120: 1107556715112467162
+      Kv5UnDX_121: -3538677646908927209
+      Kv5UnDX_122: -8799717161426298768
+      Kv5UnDX_123: -5813968235551682752
+      Kv5UnDX_124: -8129230827764809878
+      Kv5UnDX_13: -7074381828707480935
+      Kv5UnDX_14: -6374917828703770897
+      Kv5UnDX_15: 5147425267122889981
+      Kv5UnDX_16: 1457587967172653422
+      Kv5UnDX_17: 4330177826303397143
+      Kv5UnDX_18: 6265144846957557095
+      Kv5UnDX_19: 7685873653514050797
+      Kv5UnDX_2: 2399260973475245421
+      Kv5UnDX_20: -5781692526489680517
+      Kv5UnDX_21: -8601289268892339246
+      Kv5UnDX_22: -3339832207347376881
+      Kv5UnDX_23: -2523246055150552444
+      Kv5UnDX_24: 6981725490908211784
+      Kv5UnDX_25: 6019463948889311009
+      Kv5UnDX_26: -3236243855845876716
+      Kv5UnDX_27: 2816458672913923138
+      Kv5UnDX_28: -7523578676008387025
+      Kv5UnDX_29: 6953546823322915852
+      Kv5UnDX_3: -1704250280054288324
+      Kv5UnDX_30: 2722112551247340616
+      Kv5UnDX_31: -6110506793252805244
+      Kv5UnDX_32: 2440810410643355867
+      Kv5UnDX_33: 7690845992290628918
+      Kv5UnDX_34: -4472518266109425067
+      Kv5UnDX_35: -1616034521274517163
+      Kv5UnDX_36: -5714457853185726075
+      Kv5UnDX_37: -8420831827666700117
+      Kv5UnDX_38: -3940446604669394021
+      Kv5UnDX_39: -5798162049152442406
+      Kv5UnDX_4: -4357400663152452399
+      Kv5UnDX_40: 7053475691228030991
+      Kv5UnDX_41: 6849973346730553240
+      Kv5UnDX_42: -3289947304552758586
+      Kv5UnDX_43: -3937803759959300369
+      Kv5UnDX_44: 7338523787077964520
+      Kv5UnDX_45: -7663692260543249114
+      Kv5UnDX_46: 2427728587085873617
+      Kv5UnDX_47: 8093082257601052891
+      Kv5UnDX_48: 1198501730430046773
+      Kv5UnDX_49: -3819371531604475596
+      Kv5UnDX_5: 3785217896463781266
+      Kv5UnDX_50: -1700240177910331446
+      Kv5UnDX_51: 8286563345045769381
+      Kv5UnDX_52: -141628788619996312
+      Kv5UnDX_53: 8049588248820036709
+      Kv5UnDX_54: 6139871298447879987
+      Kv5UnDX_55: 6044988530266003679
+      Kv5UnDX_56: -349787060304402024
+      Kv5UnDX_57: 7416419770518530195
+      Kv5UnDX_58: -879888818644387577
+      Kv5UnDX_59: 1475802299430555804
+      Kv5UnDX_6: 160113753491250711
+      Kv5UnDX_60: 2094476701906649884
+      Kv5UnDX_61: 6740714520402559250
+      Kv5UnDX_62: -2656689072566935542
+      Kv5UnDX_63: 7394756635532986108
+      Kv5UnDX_64: -4883405038863504849
+      Kv5UnDX_65: -3836261400670457408
+      Kv5UnDX_66: -5185586245113810874
+      Kv5UnDX_67: 3723819470135983134
+      Kv5UnDX_68: 7209015430590763100
+      Kv5UnDX_69: 873469402458647729
+      Kv5UnDX_7: 1668991613653720434
+      Kv5UnDX_70: 8322169750356258820
+      Kv5UnDX_71: -6791040116167489067
+      Kv5UnDX_72: 1790894750329694756
+      Kv5UnDX_73: -4384006165837592571
+      Kv5UnDX_74: -6582266807729779151
+      Kv5UnDX_75: -2308605552376499895
+      Kv5UnDX_76: 2422460304571874984
+      Kv5UnDX_77: 3875656483616939996
+      Kv5UnDX_78: 3900553079347373288
+      Kv5UnDX_79: 195813885329000787
+      Kv5UnDX_8: 2112918554786631718
+      Kv5UnDX_80: 6238314080277937354
+      Kv5UnDX_81: 8745120458020607981
+      Kv5UnDX_82: 976890172013038634
+      Kv5UnDX_83: -1443108018709938358
+      Kv5UnDX_84: -1968045630588394594
+      Kv5UnDX_85: -474019665459067572
+      Kv5UnDX_86: 448825140529489032
+      Kv5UnDX_87: 3934500066144864010
+      Kv5UnDX_88: -6161262101194100677
+      Kv5UnDX_89: -6331882057502703519
+      Kv5UnDX_9: -3787322989041556959
+      Kv5UnDX_90: -4927382183049370119
+      Kv5UnDX_91: -2402828190525886713
+      Kv5UnDX_92: -4086960385283303161
+      Kv5UnDX_93: -1304756455089958679
+      Kv5UnDX_94: -7424547459172292801
+      Kv5UnDX_95: 1807356548480920968
+      Kv5UnDX_96: -603698567218322164
+      Kv5UnDX_97: 7814308261643051576
+      Kv5UnDX_98: -3453098605838864373
+      Kv5UnDX_99: 2841509142663177050
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
