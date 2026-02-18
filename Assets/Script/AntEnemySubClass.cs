@@ -53,15 +53,16 @@ public class AntEnemy : Enemy
                                                Mathf.Sin(finalAngle * Mathf.Deg2Rad));
 
         Quaternion rotation = Quaternion.AngleAxis(finalAngle, Vector3.forward);
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
 
-        bullet.GetComponent<EnemyBullet>().Initialize(sprayedDirection);
-
-        Destroy(bullet, 3f);
-
-        if (shootSound != null)
+        // Instantiate and initialize bullet so it knows its owner and damage
+        GameObject bulletObj = Instantiate(bulletPrefab, firePoint.position, rotation);
+        var bullet = bulletObj.GetComponent<EnemyBullet>();
+        if (bullet != null)
         {
-            AudioSource.PlayClipAtPoint(shootSound, transform.position);
+            bullet.Initialize(sprayedDirection, this.gameObject, bulletDamage);
         }
+
+        Destroy(bulletObj, 3f); // optional if your EnemyBullet already destroys itself via lifetime
     }
+
 }

@@ -15,6 +15,46 @@ public class AudioManager : MonoBehaviour
 
     private Queue<AudioSource> pool = new Queue<AudioSource>();
 
+    // Add this field near the top of the AudioManager class (serialize so you can toggle it in the Inspector)
+    [Header("Debug")]
+    [SerializeField] private bool debugLogPlaySfx = true;
+
+    public void PlaySfx(AudioClip clip, float volume = 1f)
+    {
+        if (clip == null) return;
+
+        // Temporary debug logging to trace callers and frequency
+        if (debugLogPlaySfx)
+        {
+            // Short timestamp + clip info
+            string info = $"PlaySfx called: {clip.name} vol={volume:F2} time={Time.unscaledTime:F2}";
+            // Stack trace to find the caller (skip first few frames if you want)
+            string stack = System.Environment.StackTrace;
+            Debug.Log(info + "\nCaller stack:\n" + stack);
+        }
+
+        // --- existing PlaySfx implementation follows ---
+        AudioSource src = GetSourceFromPool();
+        if (src == null)
+        {
+            src = CreateSource();
+        }
+
+        // Defensive checks and activation
+        if (!src.gameObject.activeSelf) src.gameObject.SetActive(true);
+        if (!src.enabled) src.enabled = true;
+
+        float randomPitch = Random.Range(minPitch, maxPitch);
+        src.pitch = randomPitch;
+
+        float finalVolume = Mathf.Clamp01(volume * src.volume);
+
+        src.PlayOneShot(clip, finalVolume);
+
+        StartCoroutine(ReturnAfter(src, clip.length / Mathf.Abs(src.pitch)));
+    }
+
+
     void Awake()
     {
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
@@ -37,25 +77,6 @@ public class AudioManager : MonoBehaviour
         src.playOnAwake = false;
         src.spatialBlend = 0f; // 2D sound
         return src;
-    }
-
-    /// <summary>
-    /// Play an SFX with randomized pitch. Safe for overlapping sounds.
-    /// </summary>
-    public void PlaySfx(AudioClip clip, float volume = 1f)
-    {
-        if (clip == null) return;
-
-        AudioSource src = GetSourceFromPool();
-        src.gameObject.SetActive(true);
-
-        float randomPitch = Random.Range(minPitch, maxPitch);
-        src.pitch = randomPitch;
-        src.volume = Mathf.Clamp01(volume);
-        src.clip = clip;
-        src.Play();
-
-        StartCoroutine(ReturnAfter(src, clip.length / Mathf.Abs(src.pitch)));
     }
 
     private AudioSource GetSourceFromPool()

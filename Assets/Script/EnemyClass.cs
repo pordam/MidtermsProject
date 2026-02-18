@@ -13,6 +13,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] protected GameObject bulletPrefab;
     [SerializeField] protected Transform firePoint;
     [SerializeField] protected float attackCooldown = 1f;
+    [SerializeField] protected int bulletDamage = 10;
 
     protected Transform player;
     protected float lastAttackTime;
@@ -42,7 +43,6 @@ public class Enemy : MonoBehaviour
     private bool originalAIPathEnabled;
     private bool aiStateCached = false; // whether original states have been cached
 
-
     [Header("Hit Stop")]
     [SerializeField] private float hitStopDuration = 0.08f; // unscaled seconds of freeze
     [SerializeField] private bool useFullFreeze = true;    // if false, uses tiny timescale instead of 0
@@ -54,7 +54,12 @@ public class Enemy : MonoBehaviour
     private Vector3 spriteOriginalScale = Vector3.one;
     private Coroutine squeezeCoroutine;
 
-
+    [Header("Loot Drop")]
+    [SerializeField] private GameObject lootPrefab;    // assign Loot prefab in Inspector
+    [SerializeField] private int dropCount = 1;         // how many items to spawn
+    [Range(0f, 1f)]
+    [SerializeField] private float dropChance = 1f;    // probability to drop (0..1)
+    [SerializeField] private float lootSpawnRadius = 0.2f; // small random offset
 
     private Color originalColor = Color.white;
 
@@ -71,8 +76,6 @@ public class Enemy : MonoBehaviour
         cachedAnts = GetComponentsInChildren<AntEnemy>(includeInactive: true);
         cachedSeekers = GetComponentsInChildren<Seeker>(includeInactive: true);
         cachedAIPaths = GetComponentsInChildren<AIPath>(includeInactive: true);
-
-        Debug.Log($"{name} cached components: FSMs={cachedFSMs.Length}, Ants={cachedAnts.Length}, Seekers={cachedSeekers.Length}, AIPaths={cachedAIPaths.Length}");
 
         if (spriteRenderer != null)
         {
@@ -127,10 +130,18 @@ public class Enemy : MonoBehaviour
             Vector3 direction = (player.position - firePoint.position).normalized;
             Quaternion rotation = Quaternion.LookRotation(direction);
 
-            Instantiate(bulletPrefab, firePoint.position, rotation);
+            // Instantiate and initialize bullet so it knows its owner and damage
+            GameObject bulletObj = Instantiate(bulletPrefab, firePoint.position, rotation);
+            var bullet = bulletObj.GetComponent<EnemyBullet>();
+            if (bullet != null)
+            {
+                bullet.Initialize(direction, this.gameObject, bulletDamage);
+            }
+
             lastAttackTime = Time.time;
         }
     }
+
 
     private IEnumerator DelayedKnockbackAfterHitStop(Vector2 knockDir, float delay)
     {
@@ -203,14 +214,8 @@ public class Enemy : MonoBehaviour
             StartCoroutine(DelayedKnockbackAfterHitStop(knockDir, hitStopDuration));
         }
 
-        else
-        {
-            Debug.LogWarning($"{name} No Rigidbody2D to apply knockback");
-        }
-
         if (currentHealth <= 0)
         {
-            Debug.Log($"{name} Health <= 0, calling Die()");
             Die();
         }
     }
@@ -318,41 +323,57 @@ public class Enemy : MonoBehaviour
 
         Debug.Log($"{gameObject.name} died.");
 
-        // visual: restore color and swap sprite
+        // --- Spawn loot ---
+        if (lootPrefab != null)
+        {
+            for (int i = 0; i < dropCount; i++)
+            {
+                if (Random.value <= dropChance)
+                {
+                    // small random offset so items don't overlap exactly
+                    Vector2 offset = Random.insideUnitCircle * lootSpawnRadius;
+                    Vector3 spawnPos = transform.position + (Vector3)offset;
+
+                    GameObject lootObj = Instantiate(lootPrefab, spawnPos, Quaternion.identity);
+                    // Optional: if you want to set a different sprite per enemy:
+                    // var sr = lootObj.GetComponent<SpriteRenderer>();
+                    // if (sr != null) sr.sprite = someEnemySpecificSprite;
+
+                    // If you want the loot to immediately simulate a drop with a custom horizontal force:
+                    var lootScript = lootObj.GetComponent<Loot>();
+                    if (lootScript != null)
+                    {
+                        // The Loot script auto-starts SimulateDrop() in Start(), but if you want to
+                        // pass a custom initial ground velocity you can call Initialize after instantiation:
+                        // lootScript.Initialize(new Vector2(Random.Range(-1f,1f), Random.Range(-1f,1f)));
+                        // Otherwise the prefab's Start() will call SimulateDrop() and use its settings.
+                    }
+                }
+            }
+        }
+
+        // --- existing death behavior (keep your current code) ---
         if (spriteRenderer != null)
         {
             spriteRenderer.color = originalColor;
             if (deadSprite != null) spriteRenderer.sprite = deadSprite;
         }
 
-        // Disable cached AI components for corpse (keeps them off)
+        // disable AI components, colliders, stop coroutines, etc.
         if (cachedFSMs != null) foreach (var f in cachedFSMs) if (f != null) f.enabled = false;
         if (cachedAnts != null) foreach (var a in cachedAnts) if (a != null) a.enabled = false;
         if (cachedSeekers != null) foreach (var s in cachedSeekers) if (s != null) s.enabled = false;
         if (cachedAIPaths != null) foreach (var p in cachedAIPaths) if (p != null) p.enabled = false;
 
-        // Disable the CircleCollider2D on this GameObject (if present)
         var circle = GetComponent<CircleCollider2D>();
-        if (circle != null)
-        {
-            circle.enabled = false;
-            Debug.Log($"{name} disabled CircleCollider2D on {circle.gameObject.name}");
-        }
+        if (circle != null) circle.enabled = false;
 
-        // Optional: disable any Collider2D on children (uncomment if desired)
-        // foreach (var col in GetComponentsInChildren<Collider2D>()) if (col != null) col.enabled = false;
-
-        // Restore global time immediately (safe fallback) so hitstop can't persist
         Time.timeScale = 1f;
         Time.fixedDeltaTime = 0.02f;
 
-        // Ensure AI is restored to original state before stopping coroutines
         RestoreAI();
-
-        // Stop coroutines on this object (we already restored time and AI)
         StopAllCoroutines();
 
-        // Make physics static so corpse doesn't move (optional)
         var rb2d = GetComponent<Rigidbody2D>();
         if (rb2d != null)
         {
@@ -360,8 +381,6 @@ public class Enemy : MonoBehaviour
             rb2d.bodyType = RigidbodyType2D.Static;
         }
 
-        // Destroy once (only once)
         Destroy(gameObject, 20f);
     }
-
 }

@@ -17,7 +17,7 @@ TagManager:
   - EnemyBullet
   - PlayerBullet
   - Enemy
-  - Foreground
+  - sortingOrder
   - tilemap
   - 
   - 

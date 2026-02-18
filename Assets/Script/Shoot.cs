@@ -96,7 +96,6 @@ public class Shoot : MonoBehaviour
             Vector3 spawnPos = casingEjectPoint != null ? casingEjectPoint.position : shootPoint.position;
             Vector3 ejectDir = casingEjectPoint != null ? casingEjectPoint.right : (shootPoint.right + shootPoint.up * 0.3f).normalized;
             ShellParticleSystemHandler.Instance.SpawnShell(spawnPos, ejectDir);
-            Debug.Log("Spawning shell at " + spawnPos);
         }
 
 

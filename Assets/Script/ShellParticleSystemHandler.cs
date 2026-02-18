@@ -37,10 +37,18 @@ public class ShellParticleSystemHandler : MonoBehaviour {
         var mr = GetComponent<MeshRenderer>();
         if (mr != null)
         {
-            mr.sortingLayerName = sortingLayerName;
-            mr.sortingOrder = sortingOrder;
-            Debug.Log($"Shell renderer sortingLayer={mr.sortingLayerName} order={mr.sortingOrder}");
+            mr.sortingLayerName = sortingLayerName; // ensure this layer exists
+            mr.sortingOrder = sortingOrder;         // set to a value higher than tilemap
+                                                    // Ensure material uses sprite/transparent queue so sorting layer/order are respected
+            if (mr.material != null)
+            {
+                var spriteShader = Shader.Find("Sprites/Default");
+                if (spriteShader != null && mr.material.shader != spriteShader)
+                    mr.material.shader = spriteShader;
+                mr.material.renderQueue = 3000;
+            }
         }
+
     }
 
 
