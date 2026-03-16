@@ -11,6 +11,8 @@ public class EnemyBullet : MonoBehaviour
     private Vector3 moveDirection;
     private bool isParried = false; // NEW flag
 
+    public bool IsParried => isParried; // expose read-only flag
+
     public void Initialize(Vector3 direction, GameObject owner = null, int damage = 10)
     {
         moveDirection = direction.normalized;
@@ -27,6 +29,8 @@ public class EnemyBullet : MonoBehaviour
 
     public void Deflect(Vector2 newDirection)
     {
+        if (isParried) return;
+
         moveDirection = newDirection.normalized;
         owner = GameObject.FindWithTag("Player"); // mark player as new owner
         isParried = true;

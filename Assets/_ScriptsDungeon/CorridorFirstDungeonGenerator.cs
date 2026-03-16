@@ -24,6 +24,8 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
     [SerializeField] private RoomDefinition bossRoomDefinition;
     [SerializeField] private int corridorWidth = 1; // tweakable in Inspector
 
+    [SerializeField] private GameObject enemySpawnerPrefab;
+
 
     private Dictionary<Vector2Int, HashSet<Vector2Int>> roomsDictionary = new Dictionary<Vector2Int, HashSet<Vector2Int>>();
     private HashSet<Vector2Int> currentFloorPositions;
@@ -227,6 +229,16 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
 
         Debug.Log($"Spawning prefabs in room type {room.definition.roomType}");
 
+        if (room.definition.roomType == RoomType.Enemy && enemySpawnerPrefab != null)
+        {
+            Vector2Int center = room.floorTiles.ElementAt(room.floorTiles.Count / 2);
+            Debug.Log($"[Generator] Placing EnemySpawner in room at {center}");
+
+            var spawnerObj = Instantiate(enemySpawnerPrefab, new Vector3(center.x, center.y, 0), Quaternion.identity);
+            var spawner = spawnerObj.GetComponent<EnemySpawner>();
+            spawner.Initialize(UnityEngine.Object.FindFirstObjectByType<DifficultyManager>());
+        }
+
         // Items
         if (room.definition.itemPrefabs != null && room.definition.itemPrefabs.Length > 0)
         {
@@ -253,7 +265,7 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
                 Vector2Int pos = PickSpawnPosition(room.floorTiles, room.definition.spawnInOpenSpace);
                 var prefab = room.definition.enemyPrefabs[UnityEngine.Random.Range(0, room.definition.enemyPrefabs.Length)];
                 Debug.Log($"Instantiating enemy {prefab.name} at {pos}");
-                Instantiate(prefab, new Vector3(pos.x, pos.y, -1), Quaternion.identity);
+                Instantiate(prefab, new Vector3(pos.x, pos.y, 0), Quaternion.identity);
             }
         }
         else

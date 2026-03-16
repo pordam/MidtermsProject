@@ -24,6 +24,9 @@ public class Bullet : MonoBehaviour
     private Collider2D col;
     private Rigidbody2D rb;
 
+    private bool isParried = false;
+    public bool IsParried => isParried;
+
     void Awake()
     {
         col = GetComponent<Collider2D>();
@@ -120,9 +123,12 @@ public class Bullet : MonoBehaviour
             AudioSource.PlayClipAtPoint(hitSfx, position, sfxVolume);
         }
     }
-
     public void Deflect(Vector2 newDirection)
     {
+        if (isParried) return; // prevent multiple parries
+
+        isParried = true;      // mark as parried
+
         if (rb != null)
         {
             rb.simulated = true;
