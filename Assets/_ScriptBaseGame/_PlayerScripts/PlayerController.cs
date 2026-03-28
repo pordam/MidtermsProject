@@ -57,6 +57,17 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject pickupPromptUI;
     [SerializeField] private TMPro.TextMeshProUGUI pickupPromptText; // or UnityEngine.UI.Text
 
+    [Header("Dash Settings")]
+    [SerializeField] private float dashMultiplier = 2f;     // scales with current move speed
+    [SerializeField] private float dashDuration = 0.2f;     // seconds
+    [SerializeField] private float dashCooldown = 1f;       // seconds
+
+    [Header("Dash VFX")]
+    [SerializeField] private GameObject dashSpeedLineFX;
+    [SerializeField] private Transform perspectiveCam; // assign your perspective camera
+
+    private bool isDashing = false;
+    private bool canDash = true;
 
     private void UpdateGun()
     {
@@ -175,7 +186,7 @@ public class PlayerController : MonoBehaviour
         UpdateHealthUI();
     }
 
-    private IEnumerator InvulnerabilityCoroutine()
+    public IEnumerator InvulnerabilityCoroutine()
     {
         isInvulnerable = true;
 
@@ -217,23 +228,84 @@ public class PlayerController : MonoBehaviour
         // Destroy(gameObject, 1.5f);
     }
 
-    public void OnMove(InputValue value)
+    private void OnMovePerformed(InputAction.CallbackContext ctx)
     {
-        moveInput = value.Get<Vector2>();
+        moveInput = ctx.ReadValue<Vector2>();
     }
 
-    private void OnEnable()
+    private void OnMoveCanceled(InputAction.CallbackContext ctx)
     {
+        moveInput = Vector2.zero;
+    }
+
+    void OnEnable()
+    {
+        // Enable the action map
         actions.PlayerMovement.Enable();
+
+        // Event subscription (new style)
+        actions.PlayerMovement.Move.performed += OnMovePerformed;
+        actions.PlayerMovement.Move.canceled += OnMoveCanceled;
+
+        actions.PlayerMovement.Dash.performed += OnDashPerformed;
     }
 
-    private void OnDisable()
+    void OnDisable()
     {
+        actions.PlayerMovement.Move.performed -= OnMovePerformed;
+        actions.PlayerMovement.Move.canceled -= OnMoveCanceled;
         actions.PlayerMovement.Disable();
+        actions.PlayerMovement.Dash.performed -= OnDashPerformed;
+    }
+    private void OnDashPerformed(InputAction.CallbackContext ctx)
+    {
+        if (!canDash || isDashing) return;
+        if (moveInput == Vector2.zero) return; // no direction, no dash
+
+        StartCoroutine(DashCoroutine(moveInput));
+    }
+    private IEnumerator DashCoroutine(Vector2 direction)
+    {
+        isDashing = true;
+        canDash = false;
+
+        // trigger invulnerability frames
+        StartCoroutine(InvulnerabilityCoroutine());
+
+        // Dash start
+        dashSpeedLineFX.SetActive(true);
+        dashSpeedLineFX.transform.SetParent(transform, false); // attach to player
+        dashSpeedLineFX.transform.localPosition = Vector3.zero; // center on player
+
+        float elapsed = 0f;
+        Vector2 dashVelocity = direction.normalized * stats.moveSpeed * dashMultiplier;
+
+        // spawn afterimages while dashing
+        GetComponent<AfterImageController>().StartAfterImages(dashDuration);
+
+        while (elapsed < dashDuration)
+        {
+            rb.linearVelocity = dashVelocity;
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        // reset velocity so player can move again
+        rb.linearVelocity = Vector2.zero;
+
+        dashSpeedLineFX.SetActive(false);
+
+        isDashing = false;
+
+        // cooldown
+        yield return new WaitForSeconds(dashCooldown);
+        canDash = true;
     }
 
     private void FixedUpdate()
     {
+        if (isDashing) return;
+
         rb.MovePosition(
             rb.position + moveInput * stats.moveSpeed * Time.fixedDeltaTime
         );

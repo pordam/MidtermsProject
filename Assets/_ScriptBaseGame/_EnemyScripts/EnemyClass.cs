@@ -61,6 +61,8 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float dropChance = 1f;    // probability to drop (0..1)
     [SerializeField] private float lootSpawnRadius = 0.2f; // small random offset
 
+    [SerializeField] private EnemyHealthUI healthUI;
+
     private Color originalColor = Color.white;
 
     // Modify Awake to cache Rigidbody2D (add this line inside Awake)
@@ -177,6 +179,11 @@ public class Enemy : MonoBehaviour
 
         currentHealth -= amount;
         Debug.Log($"{name} TakeDamage: amount={amount}, currentHealth={currentHealth}");
+
+        if (healthUI != null)
+        {
+            healthUI.UpdateHealth(currentHealth, maxHealth);
+        }
 
         if (spriteRenderer != null)
         {

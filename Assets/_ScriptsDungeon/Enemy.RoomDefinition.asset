@@ -16,7 +16,7 @@ MonoBehaviour:
   itemPrefabs:
   - {fileID: 8370849736412691774, guid: a82d213ce3cc89244ba370054fed7493, type: 3}
   enemyPrefabs:
-  - {fileID: 2836124787276494736, guid: b16325ea657929749927dc1a335f8ec2, type: 3}
+  - {fileID: 2024123285946609020, guid: b16325ea657929749927dc1a335f8ec2, type: 3}
   minItems: 3
   maxItems: 10
   minEnemies: 1

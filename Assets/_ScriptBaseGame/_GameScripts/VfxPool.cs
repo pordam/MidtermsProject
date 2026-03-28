@@ -14,6 +14,8 @@ public class VfxPool : MonoBehaviour
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        Debug.Log($"[VfxPool] Awake at position {transform.position}");
     }
 
     void OnDestroy() { shuttingDown = true; }
@@ -29,19 +31,24 @@ public class VfxPool : MonoBehaviour
         if (pools[prefab].Count > 0)
         {
             obj = pools[prefab].Dequeue();
+            Debug.Log($"[VfxPool] Reusing pooled object {obj.name}");
         }
         else
         {
-            obj = Instantiate(prefab, transform);
+            obj = Instantiate(prefab);
+            Debug.Log($"[VfxPool] Instantiated new object {obj.name}");
         }
 
         obj.transform.SetPositionAndRotation(position, rotation);
+        obj.transform.position = new Vector3(obj.transform.position.x, obj.transform.position.y, 0f);
+        Debug.Log($"[VfxPool] Spawned {obj.name} at {obj.transform.position}");
+
         obj.SetActive(true);
 
-        // Special handling for ParticleSystem
         ParticleSystem ps = obj.GetComponent<ParticleSystem>();
         if (ps != null)
         {
+            Debug.Log($"[VfxPool] Found ParticleSystem on {obj.name}, starting playback");
             ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
             ps.Clear(true);
             ps.time = 0f;
@@ -50,7 +57,7 @@ public class VfxPool : MonoBehaviour
         }
         else if (autoReturnDelay > 0f)
         {
-            // For non-particle prefabs (like lights), auto-return after delay
+            Debug.Log($"[VfxPool] Non-particle prefab {obj.name}, will auto-return after {autoReturnDelay}s");
             StartCoroutine(ReturnAfterDelay(obj, prefab, autoReturnDelay));
         }
 
@@ -59,6 +66,9 @@ public class VfxPool : MonoBehaviour
 
     private IEnumerator ReturnAfter(ParticleSystem ps, GameObject prefab)
     {
+        float minDuration = 0.2f;
+        yield return new WaitForSeconds(minDuration);
+
         float timeout = 10f;
         float elapsed = 0f;
         while (!shuttingDown && ps != null && ps.IsAlive(true) && elapsed < timeout)
@@ -67,6 +77,9 @@ public class VfxPool : MonoBehaviour
             yield return null;
         }
         if (ps == null) yield break;
+
+        Debug.Log($"[VfxPool] Returning particle {ps.gameObject.name} to pool at {ps.transform.position}");
+
         ps.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
         ps.Clear(true);
         ps.gameObject.SetActive(false);
@@ -77,6 +90,9 @@ public class VfxPool : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         if (obj == null) yield break;
+
+        Debug.Log($"[VfxPool] Returning object {obj.name} to pool at {obj.transform.position}");
+
         obj.SetActive(false);
         pools[prefab].Enqueue(obj);
     }

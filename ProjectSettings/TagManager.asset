@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Wall
   - Enemy
+  - Secondary Camera
   layers:
   - Default
   - TransparentFX
@@ -21,8 +22,8 @@ TagManager:
   - tilemap
   - Dungeon
   - Light
-  - 
-  - 
+  - Melee
+  - fx
   - 
   - 
   - 
@@ -40,6 +41,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Foreground
+    uniqueID: 2316322441
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0

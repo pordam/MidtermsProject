@@ -30,8 +30,6 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
     private Dictionary<Vector2Int, HashSet<Vector2Int>> roomsDictionary = new Dictionary<Vector2Int, HashSet<Vector2Int>>();
     private HashSet<Vector2Int> currentFloorPositions;
 
-
-
     protected override void RunProceduralGeneration()
     {
         Debug.Log("[DungeonGen] Starting procedural generation...");
@@ -54,7 +52,7 @@ public class CorridorFirstDungeonGenerator : SimpleRandomWalkDungeonGenerator
     private IEnumerator DelayedGraphUpdate()
     {
         // Wait more than one frame if colliders need time to bake
-        yield return new WaitForSeconds(0.1f);
+        yield return new WaitForSeconds(0.5f);
         UpdateGraphBounds(currentFloorPositions);
     }
 

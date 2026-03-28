@@ -44,6 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d1ecfe68e3a45546be15a12a0c618b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
-  enemyPrefab: {fileID: 2836124787276494736, guid: b16325ea657929749927dc1a335f8ec2, type: 3}
+  enemyPrefab: {fileID: 2024123285946609020, guid: b16325ea657929749927dc1a335f8ec2, type: 3}
   baseSpawnInterval: 5
-  difficultyManager: {fileID: 0}

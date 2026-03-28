@@ -19,6 +19,8 @@ public class ParryController : MonoBehaviour
 
     public static event System.Action OnParrySuccess;
 
+    private PlayerInputAction inputActions;
+
     void Awake()
     {
         if (parryCollider == null)
@@ -28,13 +30,34 @@ public class ParryController : MonoBehaviour
         parryCollider.enabled = false;
 
         flashFX = Object.FindFirstObjectByType<ParryFlashFX>();
+        inputActions = new PlayerInputAction();
     }
-
     public void OnParry()
     {
         if (!isParrying)
             StartCoroutine(DoParry());
     }
+
+    void OnEnable()
+    {
+        inputActions.Enable();
+        inputActions.PlayerMovement.Parry.performed += OnParryInput;
+    }
+
+    void OnDisable()
+    {
+        inputActions.PlayerMovement.Parry.performed -= OnParryInput;
+        inputActions.Disable();
+    }
+
+    private void OnParryInput(InputAction.CallbackContext ctx)
+    {
+        if (ctx.performed)
+        {
+            OnParry(); // call your existing method
+        }
+    }
+
 
     private IEnumerator DoParry()
     {

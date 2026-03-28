@@ -9,11 +9,25 @@ public class PlayerStats : MonoBehaviour
 
     [HideInInspector] public float moveSpeed;
     [HideInInspector] public float attackSpeed;
-    [HideInInspector] public float critChance;
 
     private float moveSpeedMultiplier = 1f;
     private float attackSpeedMultiplier = 1f;
     private float critChanceMultiplier = 1f;
+
+    public int baseDamage = 10;
+    [Range(0f, 1f)] public float critChance = 0.2f;
+    public float critMultiplier = 2f;
+
+    public int CalculateFinalDamage()
+    {
+        int damage = baseDamage;
+        if (Random.value < critChance)
+        {
+            damage = Mathf.RoundToInt(baseDamage * critMultiplier);
+            Debug.Log("[PlayerStats] CRITICAL STRIKE!");
+        }
+        return damage;
+    }
 
     private void Awake()
     {

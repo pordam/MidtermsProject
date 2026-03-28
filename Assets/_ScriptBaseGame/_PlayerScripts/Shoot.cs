@@ -39,14 +39,45 @@ public class Shoot : MonoBehaviour
 
     [SerializeField] private PlayerStats playerStats;
 
+    private PlayerInputAction inputActions;
 
-    void Update()
+    [SerializeField] private PlayerCombat playerCombat;
+
+    void Awake()
     {
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            ShootProjectile();
-        }
+        inputActions = new PlayerInputAction();
     }
+
+    void OnEnable()
+    {
+        inputActions.Enable();
+        inputActions.PlayerMovement.Shoot.performed += OnShoot;   // M2
+        // Melee will be handled in your PlayerCombat script
+    }
+
+    void OnDisable()
+    {
+        inputActions.PlayerMovement.Shoot.performed -= OnShoot;
+        inputActions.Disable();
+    }
+
+    private void OnShoot(InputAction.CallbackContext ctx)
+    {
+        if (playerCombat != null)
+        {
+            // block if melee flag is active OR just started
+            if (playerCombat.isMeleeAttacking ||
+                Time.time - playerCombat.lastMeleeTime < playerCombat.meleeLockout)
+            {
+                Debug.Log("Cannot shoot while meleeing!");
+                return;
+            }
+        }
+
+        ShootProjectile();
+    }
+
+
 
     void OnDrawGizmos()
     {
@@ -96,14 +127,45 @@ public class Shoot : MonoBehaviour
         // prefer using the muzzleVfxPrefab assigned on this gun
         if (VfxPool.Instance != null)
         {
-            // pass the local prefab as an override; if it's null, pool will use its own prefab
-            VfxPool.Instance.PlayAt(shootPoint.position, shootPoint.rotation, muzzleVfxPrefab.gameObject);
+            Debug.Log("[Shoot] Playing muzzle VFX via VfxPool at " + shootPoint.position);
+            VfxPool.Instance.PlayAt(shootPoint.position, shootPoint.rotation, muzzleVfxPrefab?.gameObject);
         }
         else if (muzzleVfxPrefab != null)
         {
+            Debug.Log("[Shoot] Instantiating muzzle VFX directly at " + shootPoint.position);
             ParticleSystem vfx = Instantiate(muzzleVfxPrefab, shootPoint.position, shootPoint.rotation);
             vfx.Play();
             Destroy(vfx.gameObject, vfx.main.duration + vfx.main.startLifetime.constantMax);
+        }
+        else
+        {
+            Debug.LogWarning("[Shoot] No muzzle VFX prefab assigned!");
+        }
+
+        if (gunFlashPrefab != null)
+        {
+            Debug.Log("[Shoot] Instantiating gun flash directly for test.");
+            var flash = Instantiate(gunFlashPrefab,
+                                    shootPoint.position + shootPoint.right * 0.1f,
+                                    shootPoint.rotation);
+            flash.Play();
+            Destroy(flash.gameObject,
+                    flash.main.duration + flash.main.startLifetime.constantMax);
+        }
+
+        // Gun light test (bypassing pool)
+        if (gunFlashLightPrefab != null)
+        {
+            Debug.Log("[Shoot] Instantiating gun flash light directly for test.");
+            var lightObj = Instantiate(gunFlashLightPrefab,
+                                       shootPoint.position + shootPoint.right * 0.1f,
+                                       shootPoint.rotation);
+            // If it has a Light2D component, fade it out
+            var light2D = lightObj.GetComponent<UnityEngine.Rendering.Universal.Light2D>();
+            if (light2D != null)
+            {
+                StartCoroutine(FadeAndDestroyLight(light2D, lightFadeDuration));
+            }
         }
 
         if (ShellParticleSystemHandler.Instance != null)

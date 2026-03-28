@@ -98,23 +98,11 @@ public class Bullet : MonoBehaviour
         }
 
         Enemy enemy = collision.gameObject.GetComponent<Enemy>();
-        if (enemy != null)
+        if (enemy != null && stats != null)
         {
-            int finalDamage = CalculateFinalDamage();
-
-            if (finalDamage > damage)
-            {
-                Debug.Log($"[Bullet] CRITICAL STRIKE! Enemy {enemy.name} took {finalDamage} damage (base {damage})");
-            }
-            else
-            {
-                Debug.Log($"[Bullet] Normal hit. Enemy {enemy.name} took {finalDamage} damage");
-            }
-
-            enemy.TakeDamage(finalDamage);
-            PlayHitEffects(hitPoint);
-            Disable();
-            return;
+            int damage = stats.CalculateFinalDamage();
+            enemy.TakeDamage(damage);
+            Debug.Log($"[Bullet] Hit enemy for {damage}");
         }
 
         PlayHitEffects(hitPoint);

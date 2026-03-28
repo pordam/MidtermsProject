@@ -109,12 +109,12 @@ MonoBehaviour:
   speed: 20
   lifetime: 2
   damage: 10
-  hitVfxPrefab: {fileID: 8313461624141038352, guid: f0384521ce89f844294347bc8b347501, type: 3}
-  gunFlashPrefab: {fileID: 4384102375592056067, guid: 188bd186b3ca0b349a1c5ff494a4e36c, type: 3}
+  hitVfxPrefab: {fileID: 1742092665600197809, guid: 156b9ac5bc41035429305c7bf6e6415c, type: 3}
+  gunFlashPrefab: {fileID: 3912041799774623619, guid: ed29c53e851afc340969ab2c1552f527, type: 3}
   hitSfx: {fileID: 8300000, guid: e1d5ea78316fc534fb982ae1ea6a5909, type: 3}
   sfxVolume: 0.087
-  gunFlashLightPrefab: {fileID: 0}
-  impactLightFadeDuration: 0.15
+  gunFlashLightPrefab: {fileID: 8861541946256090749, guid: 1a60fa1535e052f41833ab1e38ae3dd9, type: 3}
+  impactLightFadeDuration: 0.136
 --- !u!50 &-5439578825520246838
 Rigidbody2D:
   serializedVersion: 5
