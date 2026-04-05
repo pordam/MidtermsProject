@@ -19,6 +19,21 @@ public class PlayerStats : MonoBehaviour
     public float critMultiplier = 2f;
     private float damageMultiplier = 1f; // NEW
 
+    // Passive regen
+    [Header("Passive Regen")]
+    [SerializeField] private float baseRegen = 0f;      // HP per second
+    [SerializeField] private float regenBonus = 0f;     // HP per second from items/upgrades
+
+    private float regenAccumulator = 0f;                // accumulates fractional HP
+    public float CurrentRegen => baseRegen + regenBonus; // total HP/sec
+
+    public void AddRegen(float amount) => regenBonus += amount;
+    public void SetBaseRegen(float value) => baseRegen = value;
+    public void SetRegenBonus(float value) => regenBonus = value;
+
+    private PlayerController cachedPlayer; // add this near other private fields
+
+
     public int CalculateFinalDamage()
     {
         int damage = Mathf.RoundToInt(baseDamage * damageMultiplier);
@@ -30,11 +45,36 @@ public class PlayerStats : MonoBehaviour
         }
         return damage;
     }
-
     private void Awake()
     {
         ResetStats();
+        // cache player controller for regen/heal calls
+        cachedPlayer = UnityEngine.Object.FindFirstObjectByType<PlayerController>();
     }
+
+    private void Update()
+    {
+        // Passive regen: accumulate fractional HP and apply whole HP heals
+        if (CurrentRegen <= 0f) return;
+
+        regenAccumulator += CurrentRegen * Time.deltaTime;
+
+        if (regenAccumulator >= 1f)
+        {
+            int healAmount = Mathf.FloorToInt(regenAccumulator);
+            regenAccumulator -= healAmount;
+
+            if (cachedPlayer == null)
+                cachedPlayer = UnityEngine.Object.FindFirstObjectByType<PlayerController>();
+
+            if (cachedPlayer != null && cachedPlayer.GetCurrentHealth() < cachedPlayer.maxHealth)
+            {
+                // PlayerController exposes Heal(int) — call with an int
+                cachedPlayer.Heal(healAmount);
+            }
+        }
+    }
+
 
     public void ApplyUpgrade(PlayerUpgradeData data)
     {
@@ -84,6 +124,13 @@ public class PlayerStats : MonoBehaviour
                     damageMultiplier += data.value; // e.g. +0.1f for +10%
                 }
                 break;
+            case StatType.HealthRegen:
+                if (data.valueType == UpgradeValueType.Flat)
+                    AddRegen(data.value);        // data.value is HP per second
+                else
+                    baseRegen *= (1f + data.value);
+                break;
+
         }
 
         Debug.Log($"Applied {data.upgradeName}: {data.value} {data.valueType} {data.statType}");

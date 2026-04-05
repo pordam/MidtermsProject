@@ -118,7 +118,8 @@ MonoBehaviour:
     pickUpType: 0
     shadow: 1
     destroyTime: 0
-    colliderTags: []
+    colliderTags:
+    - Obstacle
   bounceSfx: {fileID: 8300000, guid: cae282de00fa8c14192faebdd48417e7, type: 3}
   bounceSfxVolume: 0.073
   bounceSfxMinInterval: 0.05

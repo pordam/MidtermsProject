@@ -1,7 +1,7 @@
 using UnityEngine;
 
 public enum UpgradeRarity { Common, Rare, Epic, Legendary }
-public enum StatType { MoveSpeed, AttackSpeed, CritChance, Health, Damage }
+public enum StatType { MoveSpeed, AttackSpeed, CritChance, Health, Damage, HealthRegen }
 
 public enum UpgradeValueType { Flat, Percentage }
 

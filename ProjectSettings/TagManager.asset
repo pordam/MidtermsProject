@@ -9,6 +9,7 @@ TagManager:
   - Secondary Camera
   - BG Tag
   - BG
+  - Obstacle
   layers:
   - Default
   - TransparentFX
@@ -43,11 +44,20 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Foreground
-    uniqueID: 2316322441
+  - name: TileMap
+    uniqueID: 558060583
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Trees
+    uniqueID: 3886408315
+    locked: 0
+  - name: Foreground
+    uniqueID: 2316322441
+    locked: 0
+  - name: EnemyPlace
+    uniqueID: 188174641
     locked: 0
   m_RenderingLayers:
   - Default
