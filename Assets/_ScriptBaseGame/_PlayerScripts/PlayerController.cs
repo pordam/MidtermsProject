@@ -206,6 +206,8 @@ public class PlayerController : MonoBehaviour
 
     public IEnumerator InvulnerabilityCoroutine()
     {
+        if (isInvulnerable && isDashing) yield break;
+
         isInvulnerable = true;
 
         if (sr != null)
@@ -238,18 +240,27 @@ public class PlayerController : MonoBehaviour
         isInvulnerable = false;
     }
 
-
     private void Die()
     {
         Debug.Log($"{gameObject.name} died!");
-        // Play death animation if you have one
         if (animator != null) animator.SetTrigger("Death");
 
-        // Disable player controls (simple approach)
-        // You can expand this to a proper respawn or game over flow
+        // Stop movement
+        rb.linearVelocity = Vector2.zero;
+        rb.isKinematic = true;
+
+        // Make undamageable
+        isInvulnerable = true;
+
+        // Disable player controls
         this.enabled = false;
         GunObject?.SetActive(false);
-        // Optionally destroy after a delay:
+
+        // Optionally disable colliders
+        foreach (var col in GetComponents<Collider2D>())
+            col.enabled = false;
+
+        // Optionally destroy after a delay
         // Destroy(gameObject, 1.5f);
     }
 
@@ -291,10 +302,11 @@ public class PlayerController : MonoBehaviour
     }
     private IEnumerator DashCoroutine(Vector2 direction)
     {
+        animator.SetBool("IsDashing", true);
         isDashing = true;
         canDash = false;
 
-        StartCoroutine(InvulnerabilityCoroutine());
+        isInvulnerable = true; // player is unhittable while dash is active
 
         dashSpeedLineFX.SetActive(true);
         dashSpeedLineFX.transform.SetParent(transform, false);
@@ -332,6 +344,9 @@ public class PlayerController : MonoBehaviour
             Debug.Log("[Dash] Exiting slow motion");
             DOTween.To(() => Time.timeScale, x => Time.timeScale = x, 1f, slowMoEaseOut);
         }
+
+        animator.SetBool("IsDashing", false);
+        isInvulnerable = false; // restore vulnerability after dash ends
 
         yield return new WaitForSecondsRealtime(dashCooldown); // cooldown unaffected by slowmo
         canDash = true;

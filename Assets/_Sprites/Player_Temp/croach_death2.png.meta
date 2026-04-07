@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 4f9e069637a1c7447b9ff9c59f7423fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4031812731352523675
+    second: croach_death2_0
+  - first:
+      213: -7753339349418392102
+    second: croach_death2_1
+  - first:
+      213: 5351296074372278498
+    second: croach_death2_2
+  - first:
+      213: -2947672893564722164
+    second: croach_death2_3
+  - first:
+      213: -8574392574956558239
+    second: croach_death2_4
+  - first:
+      213: -3563913298508348663
+    second: croach_death2_5
+  - first:
+      213: -4314664264758560564
+    second: croach_death2_6
+  - first:
+      213: 5466093351243120728
+    second: croach_death2_7
+  - first:
+      213: -3890850732445629719
+    second: croach_death2_8
+  - first:
+      213: 8330041166220883011
+    second: croach_death2_9
+  - first:
+      213: 7338158235626865380
+    second: croach_death2_10
+  - first:
+      213: -2265050283715131218
+    second: croach_death2_11
+  - first:
+      213: -3661868669817213490
+    second: croach_death2_12
+  - first:
+      213: -713583143263920656
+    second: croach_death2_13
+  - first:
+      213: -3045656487940995507
+    second: croach_death2_14
+  - first:
+      213: -3559653680569802095
+    second: croach_death2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: croach_death2_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 0
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56cd5daaeaf1c08c0800000000000000
+      internalID: -4031812731352523675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_1
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.61764705, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad5cbdec0fa966490800000000000000
+      internalID: -7753339349418392102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 46
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5217391, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e8e6e06d6f934a40800000000000000
+      internalID: 5351296074372278498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 55
+        height: 46
+      alignment: 9
+      pivot: {x: 0.47272727, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04e609ee13c717d0800000000000000
+      internalID: -2947672893564722164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_4
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 57
+        height: 46
+      alignment: 9
+      pivot: {x: 0.54385966, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 168a7f4d163a10980800000000000000
+      internalID: -8574392574956558239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 60
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5833334, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9038e18ccbf6a8ec0800000000000000
+      internalID: -3563913298508348663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_7
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.61764705, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85088fd31f67bdb40800000000000000
+      internalID: 5466093351243120728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_9
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 0
+        width: 32
+        height: 46
+      alignment: 9
+      pivot: {x: 0.65625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 344f9f46e404a9370800000000000000
+      internalID: 8330041166220883011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_6
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.61764705, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a532f18bc6da134db8ab72a59a58e2d
+      internalID: -4314664264758560564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_8
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 0
+        width: 34
+        height: 46
+      alignment: 9
+      pivot: {x: 0.5882353, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe95e609ff27179429f56c8988451c93
+      internalID: -3890850732445629719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach_death2_10
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 0
+        width: 31
+        height: 46
+      alignment: 9
+      pivot: {x: 0.54838705, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a9ef6651736d94f955bfa8a0f10573
+      internalID: 7338158235626865380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 97c29c79e9030ae41ae247ae5392b315
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":11.0,"y":1.0},"gridSpriteSize":{"x":68.0,"y":46.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":1,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      croach_death2_0: -4031812731352523675
+      croach_death2_1: -7753339349418392102
+      croach_death2_10: 7338158235626865380
+      croach_death2_2: 5351296074372278498
+      croach_death2_3: -2947672893564722164
+      croach_death2_4: -8574392574956558239
+      croach_death2_5: -3563913298508348663
+      croach_death2_6: -4314664264758560564
+      croach_death2_7: 5466093351243120728
+      croach_death2_8: -3890850732445629719
+      croach_death2_9: 8330041166220883011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

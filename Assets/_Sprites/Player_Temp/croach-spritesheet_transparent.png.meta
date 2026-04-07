@@ -1,0 +1,4953 @@
+fileFormatVersion: 2
+guid: a247c0b5f9ede964999ff8909f1c4fae
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2555333282483982293
+    second: croach-spritesheet_transparent_0
+  - first:
+      213: -1885234335762414706
+    second: croach-spritesheet_transparent_1
+  - first:
+      213: 7077807790475566943
+    second: croach-spritesheet_transparent_2
+  - first:
+      213: -4336485546328654876
+    second: croach-spritesheet_transparent_3
+  - first:
+      213: -7548971139064486882
+    second: croach-spritesheet_transparent_4
+  - first:
+      213: 2146019865039183907
+    second: croach-spritesheet_transparent_5
+  - first:
+      213: 1292532150987595874
+    second: croach-spritesheet_transparent_6
+  - first:
+      213: -6701035893991808648
+    second: croach-spritesheet_transparent_7
+  - first:
+      213: -7544493138753084517
+    second: croach-spritesheet_transparent_8
+  - first:
+      213: -7601425274463275629
+    second: croach-spritesheet_transparent_9
+  - first:
+      213: 1983956542069963839
+    second: croach-spritesheet_transparent_10
+  - first:
+      213: -7208008496375226129
+    second: croach-spritesheet_transparent_11
+  - first:
+      213: -1148593206641657476
+    second: croach-spritesheet_transparent_12
+  - first:
+      213: -2463821823337694127
+    second: croach-spritesheet_transparent_13
+  - first:
+      213: -9136178179687563770
+    second: croach-spritesheet_transparent_14
+  - first:
+      213: -8600052040373298208
+    second: croach-spritesheet_transparent_15
+  - first:
+      213: 29037703230558338
+    second: croach-spritesheet_transparent_16
+  - first:
+      213: -3464689762573790371
+    second: croach-spritesheet_transparent_17
+  - first:
+      213: -7975270078991408107
+    second: croach-spritesheet_transparent_18
+  - first:
+      213: 2443600185056530270
+    second: croach-spritesheet_transparent_19
+  - first:
+      213: -7916214909902901282
+    second: croach-spritesheet_transparent_20
+  - first:
+      213: 5563699753214889964
+    second: croach-spritesheet_transparent_21
+  - first:
+      213: 5742933895754563716
+    second: croach-spritesheet_transparent_22
+  - first:
+      213: 7248656318333007287
+    second: croach-spritesheet_transparent_23
+  - first:
+      213: -391548384414384856
+    second: croach-spritesheet_transparent_24
+  - first:
+      213: 3857458257212393335
+    second: croach-spritesheet_transparent_25
+  - first:
+      213: 1954334723071987016
+    second: croach-spritesheet_transparent_26
+  - first:
+      213: 385911529692660874
+    second: croach-spritesheet_transparent_27
+  - first:
+      213: 8700556910811862355
+    second: croach-spritesheet_transparent_28
+  - first:
+      213: 2495223151730762150
+    second: croach-spritesheet_transparent_29
+  - first:
+      213: -2875589526652770226
+    second: croach-spritesheet_transparent_30
+  - first:
+      213: 5867453417284487114
+    second: croach-spritesheet_transparent_31
+  - first:
+      213: -924205306064638050
+    second: croach-spritesheet_transparent_32
+  - first:
+      213: -3396272046342051720
+    second: croach-spritesheet_transparent_33
+  - first:
+      213: 3728863606302818010
+    second: croach-spritesheet_transparent_34
+  - first:
+      213: 1404581208880450266
+    second: croach-spritesheet_transparent_35
+  - first:
+      213: 3665579425869453799
+    second: croach-spritesheet_transparent_36
+  - first:
+      213: -5611613920410528992
+    second: croach-spritesheet_transparent_37
+  - first:
+      213: -2396116249077526567
+    second: croach-spritesheet_transparent_38
+  - first:
+      213: 6757746260921745289
+    second: croach-spritesheet_transparent_39
+  - first:
+      213: -3811096413714126117
+    second: croach-spritesheet_transparent_40
+  - first:
+      213: 1168745423465013816
+    second: croach-spritesheet_transparent_41
+  - first:
+      213: -8417047655244561276
+    second: croach-spritesheet_transparent_42
+  - first:
+      213: -8014443582379615358
+    second: croach-spritesheet_transparent_43
+  - first:
+      213: 7529277375780344216
+    second: croach-spritesheet_transparent_44
+  - first:
+      213: 4209099689517258318
+    second: croach-spritesheet_transparent_45
+  - first:
+      213: -2905427500084545056
+    second: croach-spritesheet_transparent_46
+  - first:
+      213: -3850459941941802980
+    second: croach-spritesheet_transparent_47
+  - first:
+      213: 3207728531362461565
+    second: croach-spritesheet_transparent_48
+  - first:
+      213: -3948977701204534763
+    second: croach-spritesheet_transparent_49
+  - first:
+      213: 5998051007636169301
+    second: croach-spritesheet_transparent_50
+  - first:
+      213: -3603955071898664959
+    second: croach-spritesheet_transparent_51
+  - first:
+      213: -1961408590969637712
+    second: croach-spritesheet_transparent_52
+  - first:
+      213: -6670777026661991008
+    second: croach-spritesheet_transparent_53
+  - first:
+      213: -4809076369046152456
+    second: croach-spritesheet_transparent_54
+  - first:
+      213: -4872850330006450287
+    second: croach-spritesheet_transparent_55
+  - first:
+      213: 8213826198382493879
+    second: croach-spritesheet_transparent_56
+  - first:
+      213: -7907764054636937728
+    second: croach-spritesheet_transparent_57
+  - first:
+      213: 453673489706130520
+    second: croach-spritesheet_transparent_58
+  - first:
+      213: -3250830224298402566
+    second: croach-spritesheet_transparent_59
+  - first:
+      213: 3911206786195713313
+    second: croach-spritesheet_transparent_60
+  - first:
+      213: 8432441057341668936
+    second: croach-spritesheet_transparent_61
+  - first:
+      213: 7941307846258171183
+    second: croach-spritesheet_transparent_62
+  - first:
+      213: -2131945803219151196
+    second: croach-spritesheet_transparent_63
+  - first:
+      213: -85423721928092233
+    second: croach-spritesheet_transparent_64
+  - first:
+      213: -6880980725018927353
+    second: croach-spritesheet_transparent_65
+  - first:
+      213: 5166571367865092285
+    second: croach-spritesheet_transparent_66
+  - first:
+      213: -6024971654558908168
+    second: croach-spritesheet_transparent_67
+  - first:
+      213: -1868367838558457863
+    second: croach-spritesheet_transparent_68
+  - first:
+      213: -4715527502790799066
+    second: croach-spritesheet_transparent_69
+  - first:
+      213: -1973063232021213342
+    second: croach-spritesheet_transparent_70
+  - first:
+      213: 3779690483193833517
+    second: croach-spritesheet_transparent_71
+  - first:
+      213: -6104235186960022010
+    second: croach-spritesheet_transparent_72
+  - first:
+      213: -1165051875387797929
+    second: croach-spritesheet_transparent_73
+  - first:
+      213: -3851486568039461456
+    second: croach-spritesheet_transparent_74
+  - first:
+      213: 8399936965878377321
+    second: croach-spritesheet_transparent_75
+  - first:
+      213: 8689760072890130201
+    second: croach-spritesheet_transparent_76
+  - first:
+      213: -5280107394656201668
+    second: croach-spritesheet_transparent_77
+  - first:
+      213: -7423979661968562350
+    second: croach-spritesheet_transparent_78
+  - first:
+      213: -8693415949651450467
+    second: croach-spritesheet_transparent_79
+  - first:
+      213: 7392284841674346404
+    second: croach-spritesheet_transparent_80
+  - first:
+      213: 6808609028792043372
+    second: croach-spritesheet_transparent_81
+  - first:
+      213: 2029832205545020960
+    second: croach-spritesheet_transparent_82
+  - first:
+      213: 6930411174880776932
+    second: croach-spritesheet_transparent_83
+  - first:
+      213: -1830631006204324579
+    second: croach-spritesheet_transparent_84
+  - first:
+      213: -3939790459453213252
+    second: croach-spritesheet_transparent_85
+  - first:
+      213: 4678305103013484991
+    second: croach-spritesheet_transparent_86
+  - first:
+      213: -3224974400650885607
+    second: croach-spritesheet_transparent_87
+  - first:
+      213: -5337482659615599156
+    second: croach-spritesheet_transparent_88
+  - first:
+      213: -8820142090241485742
+    second: croach-spritesheet_transparent_89
+  - first:
+      213: -3379421827640371706
+    second: croach-spritesheet_transparent_90
+  - first:
+      213: -8903433265110101263
+    second: croach-spritesheet_transparent_91
+  - first:
+      213: 5458403203384599637
+    second: croach-spritesheet_transparent_92
+  - first:
+      213: -7883976576357433416
+    second: croach-spritesheet_transparent_93
+  - first:
+      213: -2235558867048631606
+    second: croach-spritesheet_transparent_94
+  - first:
+      213: 6364493397917186427
+    second: croach-spritesheet_transparent_95
+  - first:
+      213: -1456553088658941714
+    second: croach-spritesheet_transparent_96
+  - first:
+      213: 1279042530549036379
+    second: croach-spritesheet_transparent_97
+  - first:
+      213: 4062962975492000468
+    second: croach-spritesheet_transparent_98
+  - first:
+      213: -2078999922573913273
+    second: croach-spritesheet_transparent_99
+  - first:
+      213: 4575634724564487016
+    second: croach-spritesheet_transparent_100
+  - first:
+      213: 3124611172523222254
+    second: croach-spritesheet_transparent_101
+  - first:
+      213: 7545181468924742776
+    second: croach-spritesheet_transparent_102
+  - first:
+      213: 8376347890956037296
+    second: croach-spritesheet_transparent_103
+  - first:
+      213: 226124700626572791
+    second: croach-spritesheet_transparent_104
+  - first:
+      213: 8553126476262716246
+    second: croach-spritesheet_transparent_105
+  - first:
+      213: -7699290407481789337
+    second: croach-spritesheet_transparent_106
+  - first:
+      213: 1706727090469379014
+    second: croach-spritesheet_transparent_107
+  - first:
+      213: -8548433182288999936
+    second: croach-spritesheet_transparent_108
+  - first:
+      213: 4981618866028391
+    second: croach-spritesheet_transparent_109
+  - first:
+      213: 4519228355221720902
+    second: croach-spritesheet_transparent_110
+  - first:
+      213: -6112164515370538072
+    second: croach-spritesheet_transparent_111
+  - first:
+      213: 4600000401374481889
+    second: croach-spritesheet_transparent_112
+  - first:
+      213: 6407502266305645488
+    second: croach-spritesheet_transparent_113
+  - first:
+      213: 5714401947158204669
+    second: croach-spritesheet_transparent_114
+  - first:
+      213: 8402266765617588199
+    second: croach-spritesheet_transparent_115
+  - first:
+      213: 1769493052408595522
+    second: croach-spritesheet_transparent_116
+  - first:
+      213: 5200023829929127505
+    second: croach-spritesheet_transparent_117
+  - first:
+      213: 2858266367180099607
+    second: croach-spritesheet_transparent_118
+  - first:
+      213: 8112484393974376109
+    second: croach-spritesheet_transparent_119
+  - first:
+      213: -1655221110012480407
+    second: croach-spritesheet_transparent_120
+  - first:
+      213: 7055204035658627986
+    second: croach-spritesheet_transparent_121
+  - first:
+      213: -1818650809139972372
+    second: croach-spritesheet_transparent_122
+  - first:
+      213: 1349602572209218490
+    second: croach-spritesheet_transparent_123
+  - first:
+      213: -5575722066178265564
+    second: croach-spritesheet_transparent_124
+  - first:
+      213: -5841542117495902412
+    second: croach-spritesheet_transparent_125
+  - first:
+      213: 708836023116937898
+    second: croach-spritesheet_transparent_126
+  - first:
+      213: -1473620003522735728
+    second: croach-spritesheet_transparent_127
+  - first:
+      213: -4376152902878929661
+    second: croach-spritesheet_transparent_128
+  - first:
+      213: -2158930159135783333
+    second: croach-spritesheet_transparent_129
+  - first:
+      213: -4271661518959934834
+    second: croach-spritesheet_transparent_130
+  - first:
+      213: 2025750886013350890
+    second: croach-spritesheet_transparent_131
+  - first:
+      213: 1079845695061158863
+    second: croach-spritesheet_transparent_132
+  - first:
+      213: -8469767778473568172
+    second: croach-spritesheet_transparent_133
+  - first:
+      213: 8904983652528512245
+    second: croach-spritesheet_transparent_134
+  - first:
+      213: 2475028159044586151
+    second: croach-spritesheet_transparent_135
+  - first:
+      213: -5727406156879728368
+    second: croach-spritesheet_transparent_136
+  - first:
+      213: -3220590587484460182
+    second: croach-spritesheet_transparent_137
+  - first:
+      213: 4317281516338501267
+    second: croach-spritesheet_transparent_138
+  - first:
+      213: 2839171966619900417
+    second: croach-spritesheet_transparent_139
+  - first:
+      213: 2426058359191646490
+    second: croach-spritesheet_transparent_140
+  - first:
+      213: 7001853356548277073
+    second: croach-spritesheet_transparent_141
+  - first:
+      213: -9070763822154096002
+    second: croach-spritesheet_transparent_142
+  - first:
+      213: -8464396717423204052
+    second: croach-spritesheet_transparent_143
+  - first:
+      213: 4787280571665473451
+    second: croach-spritesheet_transparent_144
+  - first:
+      213: 1172335652451010419
+    second: croach-spritesheet_transparent_145
+  - first:
+      213: 8577130260410508662
+    second: croach-spritesheet_transparent_146
+  - first:
+      213: -1322000838488681224
+    second: croach-spritesheet_transparent_147
+  - first:
+      213: -6442638820932947855
+    second: croach-spritesheet_transparent_148
+  - first:
+      213: -2523395045788984979
+    second: croach-spritesheet_transparent_149
+  - first:
+      213: -1922587315107310073
+    second: croach-spritesheet_transparent_150
+  - first:
+      213: -5711412195291768520
+    second: croach-spritesheet_transparent_151
+  - first:
+      213: 6204862239447750579
+    second: croach-spritesheet_transparent_152
+  - first:
+      213: -1021453288250109695
+    second: croach-spritesheet_transparent_153
+  - first:
+      213: -3383583079326685023
+    second: croach-spritesheet_transparent_154
+  - first:
+      213: 8505192462534976847
+    second: croach-spritesheet_transparent_155
+  - first:
+      213: 7957326772465818058
+    second: croach-spritesheet_transparent_156
+  - first:
+      213: 8071668183854153327
+    second: croach-spritesheet_transparent_157
+  - first:
+      213: -5522265840536256611
+    second: croach-spritesheet_transparent_158
+  - first:
+      213: -217275572212161717
+    second: croach-spritesheet_transparent_159
+  - first:
+      213: 3194804444135263294
+    second: croach-spritesheet_transparent_160
+  - first:
+      213: -8282688213979318298
+    second: croach-spritesheet_transparent_161
+  - first:
+      213: -2729276444920062702
+    second: croach-spritesheet_transparent_162
+  - first:
+      213: 5874795112721164257
+    second: croach-spritesheet_transparent_163
+  - first:
+      213: -116187376822628989
+    second: croach-spritesheet_transparent_164
+  - first:
+      213: 1689162074458935848
+    second: croach-spritesheet_transparent_165
+  - first:
+      213: 4112740039215819396
+    second: croach-spritesheet_transparent_166
+  - first:
+      213: -4688555410274762342
+    second: croach-spritesheet_transparent_167
+  - first:
+      213: -3180036250885703700
+    second: croach-spritesheet_transparent_168
+  - first:
+      213: -2933728471238132141
+    second: croach-spritesheet_transparent_169
+  - first:
+      213: 2870282958601145312
+    second: croach-spritesheet_transparent_170
+  - first:
+      213: 456953581988525327
+    second: croach-spritesheet_transparent_171
+  - first:
+      213: 2456244014963925077
+    second: croach-spritesheet_transparent_172
+  - first:
+      213: -6028881429557861030
+    second: croach-spritesheet_transparent_173
+  - first:
+      213: -2576203984636450780
+    second: croach-spritesheet_transparent_174
+  - first:
+      213: 7007190741948827357
+    second: croach-spritesheet_transparent_175
+  - first:
+      213: -1975423365245465483
+    second: croach-spritesheet_transparent_176
+  - first:
+      213: 6894666700506476748
+    second: croach-spritesheet_transparent_177
+  - first:
+      213: -2156773837305214391
+    second: croach-spritesheet_transparent_178
+  - first:
+      213: -2409888919994653477
+    second: croach-spritesheet_transparent_179
+  - first:
+      213: -5393851674519027524
+    second: croach-spritesheet_transparent_180
+  - first:
+      213: 6570680005243418502
+    second: croach-spritesheet_transparent_181
+  - first:
+      213: 879401922028468391
+    second: croach-spritesheet_transparent_182
+  - first:
+      213: 6440119940527494164
+    second: croach-spritesheet_transparent_183
+  - first:
+      213: -1533291358540590921
+    second: croach-spritesheet_transparent_184
+  - first:
+      213: -63784444599838672
+    second: croach-spritesheet_transparent_185
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 427
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfc039e41e567320800000000000000
+      internalID: 2555333282483982293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 427
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e83038a2c5d46d5e0800000000000000
+      internalID: -1885234335762414706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 428
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fd9c38fac693260800000000000000
+      internalID: 7077807790475566943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_3
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 428
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ebf67d0f55b1d3c0800000000000000
+      internalID: -4336485546328654876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 428
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14a264cebaac3790800000000000000
+      internalID: -7548971139064486882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 428
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320a79872b138cd10800000000000000
+      internalID: 2146019865039183907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2602368a42fffe110800000000000000
+      internalID: 1292532150987595874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_7
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 428
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871e977ab532103a0800000000000000
+      internalID: -6701035893991808648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b93204676739c4790800000000000000
+      internalID: -7544493138753084517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_9
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 426
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 395b0f8acff428690800000000000000
+      internalID: -7601425274463275629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_10
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c74eba6fd688b10800000000000000
+      internalID: 1983956542069963839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_11
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 428
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe0ae83567208fb90800000000000000
+      internalID: -7208008496375226129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_12
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 426
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7972b660906f00f0800000000000000
+      internalID: -1148593206641657476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_13
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 426
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cf9160b1fbecdd0800000000000000
+      internalID: -2463821823337694127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_14
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 426
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e3c03e956c53180800000000000000
+      internalID: -9136178179687563770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_15
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 426
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb1dabfb3a76a880800000000000000
+      internalID: -8600052040373298208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_16
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 398
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280962223a9276000800000000000000
+      internalID: 29037703230558338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 398
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d535bd48403faefc0800000000000000
+      internalID: -3464689762573790371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_18
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 398
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5146ae13e16225190800000000000000
+      internalID: -7975270078991408107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_19
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 398
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5f8f5beb6969e120800000000000000
+      internalID: 2443600185056530270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_20
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 398
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf26993b74f32290800000000000000
+      internalID: -7916214909902901282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_21
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 398
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef4d43a27b363d40800000000000000
+      internalID: 5563699753214889964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 398
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 480400963fff2bf40800000000000000
+      internalID: 5742933895754563716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_23
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 398
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b531293486689460800000000000000
+      internalID: 7248656318333007287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 398
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82d3a92a1d0f09af0800000000000000
+      internalID: -391548384414384856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_25
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 398
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777ca05e8d1788530800000000000000
+      internalID: 3857458257212393335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_26
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 398
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84dcaec73113f1b10800000000000000
+      internalID: 1954334723071987016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_27
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 398
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a840f0add780b5500800000000000000
+      internalID: 385911529692660874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 397
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355d201b9669eb870800000000000000
+      internalID: 8700556910811862355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_29
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 404
+        width: 29
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a12e3a7c30d0a220800000000000000
+      internalID: 2495223151730762150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 404
+        width: 26
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e482700af8ad718d0800000000000000
+      internalID: -2875589526652770226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_31
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 398
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7c461cbc16d6150800000000000000
+      internalID: 5867453417284487114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_32
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 396
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f6c78bb209c23f0800000000000000
+      internalID: -924205306064638050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_33
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 396
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878613d61940ed0d0800000000000000
+      internalID: -3396272046342051720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 370
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adebf8d81b59fb330800000000000000
+      internalID: 3728863606302818010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_35
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 370
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada028dea231e7310800000000000000
+      internalID: 1404581208880450266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 370
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9dde61111ced230800000000000000
+      internalID: 3665579425869453799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_37
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 370
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0231b49feda8f12b0800000000000000
+      internalID: -5611613920410528992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_38
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 370
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df413577f84fbed0800000000000000
+      internalID: -2396116249077526567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_39
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 370
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ff6749b6658cd50800000000000000
+      internalID: 6757746260921745289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_40
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 370
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdaedc7f0044c1bc0800000000000000
+      internalID: -3811096413714126117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_41
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 370
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832ee7635c7383010800000000000000
+      internalID: 1168745423465013816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_42
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 370
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4840d93c0c3a03b80800000000000000
+      internalID: -8417047655244561276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_43
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 370
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28b9adf260af6c090800000000000000
+      internalID: -8014443582379615358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_44
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 370
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891d5c6a1ed5d7860800000000000000
+      internalID: 7529277375780344216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_45
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 370
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4612e9edd9b96a30800000000000000
+      internalID: 4209099689517258318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_46
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 369
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e93fc01519dda7d0800000000000000
+      internalID: -2905427500084545056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_47
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 376
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1800ba551b609ac0800000000000000
+      internalID: -3850459941941802980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_48
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 376
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d77bebf9a14248c20800000000000000
+      internalID: 3207728531362461565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_49
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 371
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ad3cd04b96239c0800000000000000
+      internalID: -3948977701204534763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_50
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 368
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552e3d6cc9b5d3350800000000000000
+      internalID: 5998051007636169301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_51
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 368
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1004309e4fd2cfdc0800000000000000
+      internalID: -3603955071898664959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_52
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 342
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b4fadb474da7c4e0800000000000000
+      internalID: -1961408590969637712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_53
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 342
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0adb9f533a3ac63a0800000000000000
+      internalID: -6670777026661991008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_54
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 342
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fa574d958ab24db0800000000000000
+      internalID: -4809076369046152456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_55
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 342
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19f025c3178206cb0800000000000000
+      internalID: -4872850330006450287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_56
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 342
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0c261a86f5df170800000000000000
+      internalID: 8213826198382493879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_57
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 342
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e33cb4d7af14290800000000000000
+      internalID: -7907764054636937728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_58
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 342
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85c12fd92a5cb4600800000000000000
+      internalID: 453673489706130520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_59
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 342
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afc1797722bb2e2d0800000000000000
+      internalID: -3250830224298402566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_60
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 342
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dea4e79d5674630800000000000000
+      internalID: 3911206786195713313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_61
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 342
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84ef444f67c060570800000000000000
+      internalID: 8432441057341668936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_62
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 342
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2d9d3c4961353e60800000000000000
+      internalID: 7941307846258171183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_63
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 342
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a6dcb6669ec962e0800000000000000
+      internalID: -2131945803219151196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_64
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 338
+        width: 30
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b59517d39380def0800000000000000
+      internalID: -85423721928092233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_65
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 346
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70fdfe2dc78d180a0800000000000000
+      internalID: -6880980725018927353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_66
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 346
+        width: 33
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db88d40194953b740800000000000000
+      internalID: 5166571367865092285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_67
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 342
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f0083ca330036ca0800000000000000
+      internalID: -6024971654558908168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_68
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 339
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ff65f099593216e0800000000000000
+      internalID: -1868367838558457863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_69
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 339
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621d19b58b41f8eb0800000000000000
+      internalID: -4715527502790799066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 313
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fcdf7b1754e94e0800000000000000
+      internalID: -1973063232021213342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2861b30878247430800000000000000
+      internalID: 3779690483193833517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_72
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 313
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 606cec76076694ba0800000000000000
+      internalID: -6104235186960022010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_73
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 313
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75e8b96fd77e4dfe0800000000000000
+      internalID: -1165051875387797929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_74
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bdc1d65f55cc8ac0800000000000000
+      internalID: -3851486568039461456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_75
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 313
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b6ada6a22929470800000000000000
+      internalID: 8399936965878377321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_76
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 313
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f1df7feba389870800000000000000
+      internalID: 8689760072890130201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_77
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c349a9dbc4a49b6b0800000000000000
+      internalID: -5280107394656201668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_78
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 313
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257a3a4d4d9b8f890800000000000000
+      internalID: -7423979661968562350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_79
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 313
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d956f44e048ca5780800000000000000
+      internalID: -8693415949651450467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_80
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 313
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af0182c5eba69660800000000000000
+      internalID: 7392284841674346404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_81
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 313
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67caaf86d90d7e50800000000000000
+      internalID: 6808609028792043372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_82
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 312
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02e982de2a96b2c10800000000000000
+      internalID: 2029832205545020960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_83
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 318
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e29a22ae34cd2060800000000000000
+      internalID: 6930411174880776932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_84
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 318
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1510688cca4896e0800000000000000
+      internalID: -1830631006204324579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_85
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 314
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb571d6737d0359c0800000000000000
+      internalID: -3939790459453213252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_86
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 311
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb9140854bdace040800000000000000
+      internalID: 4678305103013484991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_87
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 311
+        width: 29
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916c9778ed69e33d0800000000000000
+      internalID: -3224974400650885607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_88
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 286
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc51ecedcc37de5b0800000000000000
+      internalID: -5337482659615599156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_89
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 286
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2545fa2008f889580800000000000000
+      internalID: -8820142090241485742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_90
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 286
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6065b41b0c1e911d0800000000000000
+      internalID: -3379421827640371706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_91
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 260
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f257b72e96a07480800000000000000
+      internalID: -8903433265110101263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_92
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 287
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554e79a2bc420cb40800000000000000
+      internalID: 5458403203384599637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_93
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 287
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bff6bc231d769290800000000000000
+      internalID: -7883976576357433416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_94
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 287
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2771f0e03b9f0e0800000000000000
+      internalID: -2235558867048631606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_95
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 260
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b793c2e5609335850800000000000000
+      internalID: 6364493397917186427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_96
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 287
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee85cf9dea849cbe0800000000000000
+      internalID: -1456553088658941714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_97
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 287
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55fdf5a76210c110800000000000000
+      internalID: 1279042530549036379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_98
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 287
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dac3c9bc4b826830800000000000000
+      internalID: 4062962975492000468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_99
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 287
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743daeed598e523e0800000000000000
+      internalID: -2078999922573913273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_100
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 287
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bcb9b0a8bef7f30800000000000000
+      internalID: 4575634724564487016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_101
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 285
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee4a6777e49dc5b20800000000000000
+      internalID: 3124611172523222254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_102
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 287
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c8e15e19ed5b860800000000000000
+      internalID: 7545181468924742776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_103
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 287
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bce68be604ce3470800000000000000
+      internalID: 8376347890956037296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_104
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 257
+        width: 26
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5d9c7973b532300800000000000000
+      internalID: 226124700626572791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_105
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 288
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653b0a8b63fc2b670800000000000000
+      internalID: 8553126476262716246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_106
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 253
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 764b97fba20a62590800000000000000
+      internalID: -7699290407481789337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_107
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 257
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cb96f30f338fa710800000000000000
+      internalID: 1706727090469379014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_108
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 253
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a808fef4ddd5980800000000000000
+      internalID: -8548433182288999936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_109
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 258
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76f7ae681c2b11000800000000000000
+      internalID: 4981618866028391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_110
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 255
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f0dd3ce3687be30800000000000000
+      internalID: 4519228355221720902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_111
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 253
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ab6794c1ca3d2ba0800000000000000
+      internalID: -6112164515370538072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_112
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 257
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed84924efb76df30800000000000000
+      internalID: 4600000401374481889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_113
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 253
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb88a0ec550ce850800000000000000
+      internalID: 6407502266305645488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_114
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 258
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df05a247b42ad4f40800000000000000
+      internalID: 5714401947158204669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_115
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 255
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e7e4b03b19da9470800000000000000
+      internalID: 8402266765617588199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_116
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 257
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24406555e808e8810800000000000000
+      internalID: 1769493052408595522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_117
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 257
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15eed765f123a2840800000000000000
+      internalID: 5200023829929127505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_118
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 221
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71057310e1a9aa720800000000000000
+      internalID: 2858266367180099607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_119
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 227
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da62eb41395559070800000000000000
+      internalID: 8112484393974376109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_120
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 225
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9647af09b297709e0800000000000000
+      internalID: -1655221110012480407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_121
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 221
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29bb55bb0be19e160800000000000000
+      internalID: 7055204035658627986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_122
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 227
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce63cb689bad2c6e0800000000000000
+      internalID: -1818650809139972372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_123
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 224
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3eb709360cab210800000000000000
+      internalID: 1349602572209218490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_124
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 221
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e232f725e0f92b0800000000000000
+      internalID: -5575722066178265564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_125
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 227
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f6c2ad46caeeea0800000000000000
+      internalID: -5841542117495902412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_126
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 225
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaab2e18b9a46d900800000000000000
+      internalID: 708836023116937898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_127
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 221
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0911e141a66ac8be0800000000000000
+      internalID: -1473620003522735728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_128
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 227
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d5b15ee18c443c0800000000000000
+      internalID: -4376152902878929661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_129
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 224
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5685d17570f902e0800000000000000
+      internalID: -2158930159135783333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_130
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 226
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8200b11b7208b4c0800000000000000
+      internalID: -4271661518959934834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_131
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 226
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3324ca2b9ec1c10800000000000000
+      internalID: 2025750886013350890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_132
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 226
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbea5a30f16cfe00800000000000000
+      internalID: 1079845695061158863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_133
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 189
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458980a8417557a80800000000000000
+      internalID: -8469767778473568172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_134
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 196
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc5f9b837bd49b70800000000000000
+      internalID: 8904983652528512245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_135
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 194
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa01f45ff0195220800000000000000
+      internalID: 2475028159044586151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_136
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 190
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0117cc6027a2480b0800000000000000
+      internalID: -5727406156879728368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_137
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 196
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ba5029ce92e43d0800000000000000
+      internalID: -3220590587484460182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_138
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 193
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39657b84aa01aeb30800000000000000
+      internalID: 4317281516338501267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_139
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 189
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a50ae6cd3c66720800000000000000
+      internalID: 2839171966619900417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_140
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 196
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a113cff49371ba120800000000000000
+      internalID: 2426058359191646490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_141
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 194
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153cf66c7849b2160800000000000000
+      internalID: 7001853356548277073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_142
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 190
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e726a0bdc5c2e1280800000000000000
+      internalID: -9070763822154096002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_143
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 196
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c29e104280c688a80800000000000000
+      internalID: -8464396717423204052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_144
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 193
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bafdf3ad056df6240800000000000000
+      internalID: 4787280571665473451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_145
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3774ed98019f44010800000000000000
+      internalID: 1172335652451010419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_146
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 191
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675a50c3786180770800000000000000
+      internalID: 8577130260410508662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_147
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f41d1ddd3f47ade0800000000000000
+      internalID: -1322000838488681224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_148
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 191
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 170762e70262796a0800000000000000
+      internalID: -6442638820932947855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_149
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 197
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6954cb43991bfcd0800000000000000
+      internalID: -2523395045788984979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_150
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 191
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7065b51f5099155e0800000000000000
+      internalID: -1922587315107310073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_151
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 157
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839dcc56edcfcb0b0800000000000000
+      internalID: -5711412195291768520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_152
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 163
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b7948ef4591c1650800000000000000
+      internalID: 6204862239447750579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_153
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 160
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101923f65a113d1f0800000000000000
+      internalID: -1021453288250109695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_154
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 157
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8e5b8cd191b01d0800000000000000
+      internalID: -3383583079326685023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_155
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 163
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f452ab37b73880670800000000000000
+      internalID: 8505192462534976847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_156
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 161
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac9d7823a8a1e6e60800000000000000
+      internalID: 7957326772465818058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_157
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 157
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ef27b9273540070800000000000000
+      internalID: 8071668183854153327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_158
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 163
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9fff8be978fc53b0800000000000000
+      internalID: -5522265840536256611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_159
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 160
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b43aceba4051cfcf0800000000000000
+      internalID: -217275572212161717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_160
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 157
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c858317b9365c20800000000000000
+      internalID: 3194804444135263294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_161
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 163
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7b274f3fafd0d80800000000000000
+      internalID: -8282688213979318298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_162
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 161
+        width: 20
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dd2be9889af1ad0800000000000000
+      internalID: -2729276444920062702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_163
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 155
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e722fd6707778150800000000000000
+      internalID: 5874795112721164257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_164
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 155
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d4a154238336ef0800000000000000
+      internalID: -116187376822628989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_165
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 155
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 822df2805fb117710800000000000000
+      internalID: 1689162074458935848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_166
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 116
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a2cf28643631930800000000000000
+      internalID: 4112740039215819396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_167
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 116
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9146d402b7eeeeb0800000000000000
+      internalID: -4688555410274762342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_168
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 116
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce7b71dd0ed3ed3d0800000000000000
+      internalID: -3180036250885703700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_169
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 116
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35eb66cbf7d4947d0800000000000000
+      internalID: -2933728471238132141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_170
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 96
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0eb4748b42b45d720800000000000000
+      internalID: 2870282958601145312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_171
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 64
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f05b44d9cdc675600800000000000000
+      internalID: 456953581988525327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_172
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 56
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 550aa99fae4561220800000000000000
+      internalID: 2456244014963925077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_173
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 64
+        width: 57
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55214e384c155ca0800000000000000
+      internalID: -6028881429557861030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_174
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 49
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4286cc2102c7f3cd0800000000000000
+      internalID: -2576203984636450780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_175
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 64
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd60447aada8e3160800000000000000
+      internalID: 7007190741948827357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_176
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 81
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57c89816ae2e594e0800000000000000
+      internalID: -1975423365245465483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_177
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 64
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc03768a5d6ceaf50800000000000000
+      internalID: 6894666700506476748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_178
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 80
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a019e3f999112e0800000000000000
+      internalID: -2156773837305214391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_179
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 86
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4a19f9bca5e8ed0800000000000000
+      internalID: -2409888919994653477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_180
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 13
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0c529da703525b0800000000000000
+      internalID: -5393851674519027524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_181
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 39
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687bb4dd6aebf2b50800000000000000
+      internalID: 6570680005243418502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_182
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 13
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a87d498363443c00800000000000000
+      internalID: 879401922028468391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_183
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 13
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4141d06f6f6ef5950800000000000000
+      internalID: 6440119940527494164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_184
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 13
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0130512a7a8bae0800000000000000
+      internalID: -1533291358540590921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: croach-spritesheet_transparent_185
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 13
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0385e65b2646d1ff0800000000000000
+      internalID: -63784444599838672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      croach-spritesheet_transparent_0: 2555333282483982293
+      croach-spritesheet_transparent_1: -1885234335762414706
+      croach-spritesheet_transparent_10: 1983956542069963839
+      croach-spritesheet_transparent_100: 4575634724564487016
+      croach-spritesheet_transparent_101: 3124611172523222254
+      croach-spritesheet_transparent_102: 7545181468924742776
+      croach-spritesheet_transparent_103: 8376347890956037296
+      croach-spritesheet_transparent_104: 226124700626572791
+      croach-spritesheet_transparent_105: 8553126476262716246
+      croach-spritesheet_transparent_106: -7699290407481789337
+      croach-spritesheet_transparent_107: 1706727090469379014
+      croach-spritesheet_transparent_108: -8548433182288999936
+      croach-spritesheet_transparent_109: 4981618866028391
+      croach-spritesheet_transparent_11: -7208008496375226129
+      croach-spritesheet_transparent_110: 4519228355221720902
+      croach-spritesheet_transparent_111: -6112164515370538072
+      croach-spritesheet_transparent_112: 4600000401374481889
+      croach-spritesheet_transparent_113: 6407502266305645488
+      croach-spritesheet_transparent_114: 5714401947158204669
+      croach-spritesheet_transparent_115: 8402266765617588199
+      croach-spritesheet_transparent_116: 1769493052408595522
+      croach-spritesheet_transparent_117: 5200023829929127505
+      croach-spritesheet_transparent_118: 2858266367180099607
+      croach-spritesheet_transparent_119: 8112484393974376109
+      croach-spritesheet_transparent_12: -1148593206641657476
+      croach-spritesheet_transparent_120: -1655221110012480407
+      croach-spritesheet_transparent_121: 7055204035658627986
+      croach-spritesheet_transparent_122: -1818650809139972372
+      croach-spritesheet_transparent_123: 1349602572209218490
+      croach-spritesheet_transparent_124: -5575722066178265564
+      croach-spritesheet_transparent_125: -5841542117495902412
+      croach-spritesheet_transparent_126: 708836023116937898
+      croach-spritesheet_transparent_127: -1473620003522735728
+      croach-spritesheet_transparent_128: -4376152902878929661
+      croach-spritesheet_transparent_129: -2158930159135783333
+      croach-spritesheet_transparent_13: -2463821823337694127
+      croach-spritesheet_transparent_130: -4271661518959934834
+      croach-spritesheet_transparent_131: 2025750886013350890
+      croach-spritesheet_transparent_132: 1079845695061158863
+      croach-spritesheet_transparent_133: -8469767778473568172
+      croach-spritesheet_transparent_134: 8904983652528512245
+      croach-spritesheet_transparent_135: 2475028159044586151
+      croach-spritesheet_transparent_136: -5727406156879728368
+      croach-spritesheet_transparent_137: -3220590587484460182
+      croach-spritesheet_transparent_138: 4317281516338501267
+      croach-spritesheet_transparent_139: 2839171966619900417
+      croach-spritesheet_transparent_14: -9136178179687563770
+      croach-spritesheet_transparent_140: 2426058359191646490
+      croach-spritesheet_transparent_141: 7001853356548277073
+      croach-spritesheet_transparent_142: -9070763822154096002
+      croach-spritesheet_transparent_143: -8464396717423204052
+      croach-spritesheet_transparent_144: 4787280571665473451
+      croach-spritesheet_transparent_145: 1172335652451010419
+      croach-spritesheet_transparent_146: 8577130260410508662
+      croach-spritesheet_transparent_147: -1322000838488681224
+      croach-spritesheet_transparent_148: -6442638820932947855
+      croach-spritesheet_transparent_149: -2523395045788984979
+      croach-spritesheet_transparent_15: -8600052040373298208
+      croach-spritesheet_transparent_150: -1922587315107310073
+      croach-spritesheet_transparent_151: -5711412195291768520
+      croach-spritesheet_transparent_152: 6204862239447750579
+      croach-spritesheet_transparent_153: -1021453288250109695
+      croach-spritesheet_transparent_154: -3383583079326685023
+      croach-spritesheet_transparent_155: 8505192462534976847
+      croach-spritesheet_transparent_156: 7957326772465818058
+      croach-spritesheet_transparent_157: 8071668183854153327
+      croach-spritesheet_transparent_158: -5522265840536256611
+      croach-spritesheet_transparent_159: -217275572212161717
+      croach-spritesheet_transparent_16: 29037703230558338
+      croach-spritesheet_transparent_160: 3194804444135263294
+      croach-spritesheet_transparent_161: -8282688213979318298
+      croach-spritesheet_transparent_162: -2729276444920062702
+      croach-spritesheet_transparent_163: 5874795112721164257
+      croach-spritesheet_transparent_164: -116187376822628989
+      croach-spritesheet_transparent_165: 1689162074458935848
+      croach-spritesheet_transparent_166: 4112740039215819396
+      croach-spritesheet_transparent_167: -4688555410274762342
+      croach-spritesheet_transparent_168: -3180036250885703700
+      croach-spritesheet_transparent_169: -2933728471238132141
+      croach-spritesheet_transparent_17: -3464689762573790371
+      croach-spritesheet_transparent_170: 2870282958601145312
+      croach-spritesheet_transparent_171: 456953581988525327
+      croach-spritesheet_transparent_172: 2456244014963925077
+      croach-spritesheet_transparent_173: -6028881429557861030
+      croach-spritesheet_transparent_174: -2576203984636450780
+      croach-spritesheet_transparent_175: 7007190741948827357
+      croach-spritesheet_transparent_176: -1975423365245465483
+      croach-spritesheet_transparent_177: 6894666700506476748
+      croach-spritesheet_transparent_178: -2156773837305214391
+      croach-spritesheet_transparent_179: -2409888919994653477
+      croach-spritesheet_transparent_18: -7975270078991408107
+      croach-spritesheet_transparent_180: -5393851674519027524
+      croach-spritesheet_transparent_181: 6570680005243418502
+      croach-spritesheet_transparent_182: 879401922028468391
+      croach-spritesheet_transparent_183: 6440119940527494164
+      croach-spritesheet_transparent_184: -1533291358540590921
+      croach-spritesheet_transparent_185: -63784444599838672
+      croach-spritesheet_transparent_19: 2443600185056530270
+      croach-spritesheet_transparent_2: 7077807790475566943
+      croach-spritesheet_transparent_20: -7916214909902901282
+      croach-spritesheet_transparent_21: 5563699753214889964
+      croach-spritesheet_transparent_22: 5742933895754563716
+      croach-spritesheet_transparent_23: 7248656318333007287
+      croach-spritesheet_transparent_24: -391548384414384856
+      croach-spritesheet_transparent_25: 3857458257212393335
+      croach-spritesheet_transparent_26: 1954334723071987016
+      croach-spritesheet_transparent_27: 385911529692660874
+      croach-spritesheet_transparent_28: 8700556910811862355
+      croach-spritesheet_transparent_29: 2495223151730762150
+      croach-spritesheet_transparent_3: -4336485546328654876
+      croach-spritesheet_transparent_30: -2875589526652770226
+      croach-spritesheet_transparent_31: 5867453417284487114
+      croach-spritesheet_transparent_32: -924205306064638050
+      croach-spritesheet_transparent_33: -3396272046342051720
+      croach-spritesheet_transparent_34: 3728863606302818010
+      croach-spritesheet_transparent_35: 1404581208880450266
+      croach-spritesheet_transparent_36: 3665579425869453799
+      croach-spritesheet_transparent_37: -5611613920410528992
+      croach-spritesheet_transparent_38: -2396116249077526567
+      croach-spritesheet_transparent_39: 6757746260921745289
+      croach-spritesheet_transparent_4: -7548971139064486882
+      croach-spritesheet_transparent_40: -3811096413714126117
+      croach-spritesheet_transparent_41: 1168745423465013816
+      croach-spritesheet_transparent_42: -8417047655244561276
+      croach-spritesheet_transparent_43: -8014443582379615358
+      croach-spritesheet_transparent_44: 7529277375780344216
+      croach-spritesheet_transparent_45: 4209099689517258318
+      croach-spritesheet_transparent_46: -2905427500084545056
+      croach-spritesheet_transparent_47: -3850459941941802980
+      croach-spritesheet_transparent_48: 3207728531362461565
+      croach-spritesheet_transparent_49: -3948977701204534763
+      croach-spritesheet_transparent_5: 2146019865039183907
+      croach-spritesheet_transparent_50: 5998051007636169301
+      croach-spritesheet_transparent_51: -3603955071898664959
+      croach-spritesheet_transparent_52: -1961408590969637712
+      croach-spritesheet_transparent_53: -6670777026661991008
+      croach-spritesheet_transparent_54: -4809076369046152456
+      croach-spritesheet_transparent_55: -4872850330006450287
+      croach-spritesheet_transparent_56: 8213826198382493879
+      croach-spritesheet_transparent_57: -7907764054636937728
+      croach-spritesheet_transparent_58: 453673489706130520
+      croach-spritesheet_transparent_59: -3250830224298402566
+      croach-spritesheet_transparent_6: 1292532150987595874
+      croach-spritesheet_transparent_60: 3911206786195713313
+      croach-spritesheet_transparent_61: 8432441057341668936
+      croach-spritesheet_transparent_62: 7941307846258171183
+      croach-spritesheet_transparent_63: -2131945803219151196
+      croach-spritesheet_transparent_64: -85423721928092233
+      croach-spritesheet_transparent_65: -6880980725018927353
+      croach-spritesheet_transparent_66: 5166571367865092285
+      croach-spritesheet_transparent_67: -6024971654558908168
+      croach-spritesheet_transparent_68: -1868367838558457863
+      croach-spritesheet_transparent_69: -4715527502790799066
+      croach-spritesheet_transparent_7: -6701035893991808648
+      croach-spritesheet_transparent_70: -1973063232021213342
+      croach-spritesheet_transparent_71: 3779690483193833517
+      croach-spritesheet_transparent_72: -6104235186960022010
+      croach-spritesheet_transparent_73: -1165051875387797929
+      croach-spritesheet_transparent_74: -3851486568039461456
+      croach-spritesheet_transparent_75: 8399936965878377321
+      croach-spritesheet_transparent_76: 8689760072890130201
+      croach-spritesheet_transparent_77: -5280107394656201668
+      croach-spritesheet_transparent_78: -7423979661968562350
+      croach-spritesheet_transparent_79: -8693415949651450467
+      croach-spritesheet_transparent_8: -7544493138753084517
+      croach-spritesheet_transparent_80: 7392284841674346404
+      croach-spritesheet_transparent_81: 6808609028792043372
+      croach-spritesheet_transparent_82: 2029832205545020960
+      croach-spritesheet_transparent_83: 6930411174880776932
+      croach-spritesheet_transparent_84: -1830631006204324579
+      croach-spritesheet_transparent_85: -3939790459453213252
+      croach-spritesheet_transparent_86: 4678305103013484991
+      croach-spritesheet_transparent_87: -3224974400650885607
+      croach-spritesheet_transparent_88: -5337482659615599156
+      croach-spritesheet_transparent_89: -8820142090241485742
+      croach-spritesheet_transparent_9: -7601425274463275629
+      croach-spritesheet_transparent_90: -3379421827640371706
+      croach-spritesheet_transparent_91: -8903433265110101263
+      croach-spritesheet_transparent_92: 5458403203384599637
+      croach-spritesheet_transparent_93: -7883976576357433416
+      croach-spritesheet_transparent_94: -2235558867048631606
+      croach-spritesheet_transparent_95: 6364493397917186427
+      croach-spritesheet_transparent_96: -1456553088658941714
+      croach-spritesheet_transparent_97: 1279042530549036379
+      croach-spritesheet_transparent_98: 4062962975492000468
+      croach-spritesheet_transparent_99: -2078999922573913273
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
