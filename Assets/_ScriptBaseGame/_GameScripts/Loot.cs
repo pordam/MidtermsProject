@@ -20,6 +20,9 @@ public class Loot : MonoBehaviour
     private Transform t_body; // Body
     private Transform t_shadow; // Shadow
 
+    [SerializeField] private bool isCurrency = true; // default true for coins, false for chests
+
+
     #region OPTIONAL PICK UP
     bool canCollect;
 
@@ -46,35 +49,35 @@ public class Loot : MonoBehaviour
         if (picked) return;
         picked = true;
 
-        // Prevent further triggers
+        if (!isCurrency)
+        {
+            Debug.Log("This loot is not currency (e.g. chest). Ignoring pickup.");
+            return; // do nothing, chest stays
+        }
+
+        // Currency pickup logic
         var col = GetComponent<Collider2D>();
         if (col != null) col.enabled = false;
 
-        // Optional: hide visuals immediately
         var rend = GetComponentInChildren<Renderer>();
         if (rend != null) rend.enabled = false;
 
-        // Play pickup SFX once (on the loot prefab)
         var valueComp = GetComponent<LootValue>();
         if (valueComp != null && valueComp.pickupSfx != null && AudioManager.Instance != null)
         {
             AudioManager.Instance.PlaySfx(valueComp.pickupSfx, valueComp.pickupVolume);
         }
 
-        // Award currency and run the UI visual pop but NO audio
         int amount = valueComp != null ? valueComp.value : 1;
         if (CurrencyManager.Instance != null)
         {
             CurrencyManager.Instance.Add(amount, playVisual: true);
         }
-        else
-        {
-            Debug.LogWarning("CurrencyManager not found in scene.");
-        }
 
-        // Destroy after a short delay so SFX can start
         Destroy(gameObject, 0.05f);
     }
+
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

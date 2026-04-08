@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
     [Header("Stats")]
     [SerializeField] private int maxHealth = 10;
     private int currentHealth;
-    private bool isDead = false;
+    public bool isDead = false;
 
     [Header("Attack Settings")]
     [SerializeField] protected GameObject bulletPrefab;
@@ -432,8 +432,10 @@ public class Enemy : MonoBehaviour
         if (cachedSeekers != null) foreach (var s in cachedSeekers) if (s != null) s.enabled = false;
         if (cachedAIPaths != null) foreach (var p in cachedAIPaths) if (p != null) p.enabled = false;
 
-        var circle = GetComponent<CircleCollider2D>();
-        if (circle != null) circle.enabled = false;
+        foreach (var col in GetComponentsInChildren<Collider2D>())
+        {
+            col.enabled = false;
+        }
 
         Time.timeScale = 1f;
         Time.fixedDeltaTime = 0.02f;

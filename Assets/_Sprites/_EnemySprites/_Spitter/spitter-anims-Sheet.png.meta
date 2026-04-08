@@ -1,0 +1,745 @@
+fileFormatVersion: 2
+guid: 922fe7ce17f944741b135e91e586338f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1929569513222491702
+    second: spitter-anims-Sheet_0
+  - first:
+      213: -8151993452639129261
+    second: spitter-anims-Sheet_1
+  - first:
+      213: -6602767752621328368
+    second: spitter-anims-Sheet_2
+  - first:
+      213: 5958996388000360721
+    second: spitter-anims-Sheet_3
+  - first:
+      213: 8974260548300604368
+    second: spitter-anims-Sheet_4
+  - first:
+      213: -3462863933783328813
+    second: spitter-anims-Sheet_5
+  - first:
+      213: 5977077028681783274
+    second: spitter-anims-Sheet_6
+  - first:
+      213: 1197054051840627141
+    second: spitter-anims-Sheet_7
+  - first:
+      213: -6519795374577679902
+    second: spitter-anims-Sheet_8
+  - first:
+      213: -3213224889626678359
+    second: spitter-anims-Sheet_9
+  - first:
+      213: 4649667369841539055
+    second: spitter-anims-Sheet_10
+  - first:
+      213: -5613637603667488863
+    second: spitter-anims-Sheet_11
+  - first:
+      213: -688422672667474850
+    second: spitter-anims-Sheet_12
+  - first:
+      213: 1527238286954602807
+    second: spitter-anims-Sheet_13
+  - first:
+      213: 3573605605789304282
+    second: spitter-anims-Sheet_14
+  - first:
+      213: 2909721174898301893
+    second: spitter-anims-Sheet_15
+  - first:
+      213: 315705858695873284
+    second: spitter-anims-Sheet_16
+  - first:
+      213: -2677144940408592924
+    second: spitter-anims-Sheet_17
+  - first:
+      213: -7480970816611268528
+    second: spitter-anims-Sheet_18
+  - first:
+      213: 8476231221186492758
+    second: spitter-anims-Sheet_19
+  - first:
+      213: -4780406835372267455
+    second: spitter-anims-Sheet_20
+  - first:
+      213: -2108503146444135292
+    second: spitter-anims-Sheet_21
+  - first:
+      213: -561124263254326765
+    second: spitter-anims-Sheet_22
+  - first:
+      213: -6211581960577325769
+    second: spitter-anims-Sheet_23
+  - first:
+      213: -5009984918014917968
+    second: spitter-anims-Sheet_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 127
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ecc0dbf3537ca10800000000000000
+      internalID: 1929569513222491702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 127
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 351722c552d4ede80800000000000000
+      internalID: -8151993452639129261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 128
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018f99246b14e54a0800000000000000
+      internalID: -6602767752621328368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 129
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 119e89c84ab92b250800000000000000
+      internalID: 5958996388000360721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 127
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d38247cb6afa8c70800000000000000
+      internalID: 8974260548300604368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 139
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d73559699f61ffc0800000000000000
+      internalID: -3462863933783328813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 93
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c117e0615acc9010800000000000000
+      internalID: 1197054051840627141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 93
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1001276a80585a0800000000000000
+      internalID: -6519795374577679902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 94
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abab5ebcf45863d0800000000000000
+      internalID: -3213224889626678359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 92
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe7312f76dfe68040800000000000000
+      internalID: 4649667369841539055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 93
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1afcf9f775a5812b0800000000000000
+      internalID: -5613637603667488863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 93
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5484540a3b3276f0800000000000000
+      internalID: -688422672667474850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 58
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312e4d5127d13510800000000000000
+      internalID: 1527238286954602807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 54
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad58a6c5d5ff79130800000000000000
+      internalID: 3573605605789304282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 52
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbde310ef7616820800000000000000
+      internalID: 2909721174898301893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 61
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403c3194ecc916400800000000000000
+      internalID: 315705858695873284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 58
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e526be5cded8dad0800000000000000
+      internalID: -2677144940408592924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 58
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05842dc9da04e2890800000000000000
+      internalID: -7480970816611268528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 18
+        width: 33
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65975ecf26f91a570800000000000000
+      internalID: 8476231221186492758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 7
+        width: 25
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44, y: 0.42105263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14869c79f4598adb0800000000000000
+      internalID: -4780406835372267455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 5
+        width: 28
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46428573, y: 0.425}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48467644f871db2e0800000000000000
+      internalID: -2108503146444135292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 15
+        width: 36
+        height: 30
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3128fdd947c7638f0800000000000000
+      internalID: -561124263254326765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 19
+        width: 39
+        height: 26
+      alignment: 9
+      pivot: {x: 0.51282054, y: 0.42307693}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73560920e170cc9a0800000000000000
+      internalID: -6211581960577325769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spitter-anims-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 19
+        width: 39
+        height: 26
+      alignment: 9
+      pivot: {x: 0.53846157, y: 0.3846154}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b208a7d245f87ab0800000000000000
+      internalID: -5009984918014917968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b6dee51da3b0f464a8d518025c4bb1ff
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spitter-anims-Sheet_0: 1929569513222491702
+      spitter-anims-Sheet_1: -8151993452639129261
+      spitter-anims-Sheet_10: 4649667369841539055
+      spitter-anims-Sheet_11: -5613637603667488863
+      spitter-anims-Sheet_12: -688422672667474850
+      spitter-anims-Sheet_13: 1527238286954602807
+      spitter-anims-Sheet_14: 3573605605789304282
+      spitter-anims-Sheet_15: 2909721174898301893
+      spitter-anims-Sheet_16: 315705858695873284
+      spitter-anims-Sheet_17: -2677144940408592924
+      spitter-anims-Sheet_18: -7480970816611268528
+      spitter-anims-Sheet_19: 8476231221186492758
+      spitter-anims-Sheet_2: -6602767752621328368
+      spitter-anims-Sheet_20: -4780406835372267455
+      spitter-anims-Sheet_21: -2108503146444135292
+      spitter-anims-Sheet_22: -561124263254326765
+      spitter-anims-Sheet_23: -6211581960577325769
+      spitter-anims-Sheet_24: -5009984918014917968
+      spitter-anims-Sheet_3: 5958996388000360721
+      spitter-anims-Sheet_4: 8974260548300604368
+      spitter-anims-Sheet_5: -3462863933783328813
+      spitter-anims-Sheet_6: 5977077028681783274
+      spitter-anims-Sheet_7: 1197054051840627141
+      spitter-anims-Sheet_8: -6519795374577679902
+      spitter-anims-Sheet_9: -3213224889626678359
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

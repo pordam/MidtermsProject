@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class EnemySpawner : MonoBehaviour
 {
-    [SerializeField] private GameObject enemyPrefab;
 
     private DifficultyManager difficultyManager;
 
@@ -18,6 +17,8 @@ public class EnemySpawner : MonoBehaviour
     public float insidePadding = 0.1f;
     [Tooltip("Fallback radius around this transform when no collider is assigned")]
     public float fallbackRadius = 3f;
+
+    [SerializeField] private GameObject[] enemyPrefabs; // assign multiple prefabs in Inspector
 
     // last spawn position for debug visualization
     private Vector3 lastSpawnPos = Vector3.zero;
@@ -51,16 +52,19 @@ public class EnemySpawner : MonoBehaviour
     // Called by WaveManager
     public GameObject SpawnEnemy()
     {
-        if (enemyPrefab == null)
+        if (enemyPrefabs == null || enemyPrefabs.Length == 0)
         {
-            Debug.LogError("[Spawner] No enemyPrefab assigned!");
+            Debug.LogError("[Spawner] No enemyPrefabs assigned!");
             return null;
         }
 
+        // pick a random prefab
+        GameObject prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Length)];
+
         Vector3 spawnPos = GetSpawnPosition();
-        GameObject enemy = Instantiate(enemyPrefab, spawnPos, Quaternion.identity);
+        GameObject enemy = Instantiate(prefab, spawnPos, Quaternion.identity);
         lastSpawnPos = spawnPos;
-        Debug.Log($"[Spawner] Enemy spawned at {spawnPos}");
+        Debug.Log($"[Spawner] Enemy spawned at {spawnPos} using prefab {prefab.name}");
         return enemy;
     }
 

@@ -24,6 +24,7 @@ public class Chest : MonoBehaviour
             else
             {
                 Debug.Log("Not enough money to open chest.");
+                // Do nothing: chest stays closed and collider stays active
             }
         }
     }
@@ -53,6 +54,17 @@ public class Chest : MonoBehaviour
         isOpened = true;
         Debug.Log("Chest opened!");
 
+        // disable chest collider and visuals
+        Collider2D chestCollider = GetComponent<Collider2D>();
+        if (chestCollider != null) chestCollider.enabled = false;
+
+        var rend = GetComponentInChildren<SpriteRenderer>();
+        if (rend != null) rend.enabled = false;
+
+        // destroy chest after a delay (optional)
+        Destroy(gameObject, 2f);
+
+
         PlayerUpgradeData upgrade = GetRandomUpgrade();
         if (upgrade != null)
         {
@@ -60,7 +72,6 @@ public class Chest : MonoBehaviour
             Vector3 spawnPos = transform.position + (Vector3)offset;
             GameObject item = Instantiate(upgrade.visualPrefab, spawnPos, Quaternion.identity);
 
-            // Optional: delay before item can be interacted with
             Collider2D col = item.GetComponent<Collider2D>();
             if (col != null)
             {
@@ -70,10 +81,12 @@ public class Chest : MonoBehaviour
         }
     }
 
+
     private IEnumerator EnableColliderAfterDelay(Collider2D col, float delay)
     {
         yield return new WaitForSeconds(delay);
-        col.enabled = true;
+        if (col != null) col.enabled = true; // only re-enable if still valid
     }
+
 
 }

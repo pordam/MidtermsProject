@@ -31,7 +31,7 @@ TagManager:
   - Ground Test Layer
   - BG Test Layer
   - EnemySummon
-  - 
+  - Spitterbullet
   - 
   - 
   - 
@@ -58,6 +58,9 @@ TagManager:
     locked: 0
   - name: EnemyPlace
     uniqueID: 188174641
+    locked: 0
+  - name: Bulleyt
+    uniqueID: 3556328567
     locked: 0
   m_RenderingLayers:
   - Default

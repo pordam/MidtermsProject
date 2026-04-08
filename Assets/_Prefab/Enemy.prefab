@@ -325,6 +325,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   maxHealth: 50
+  isDead: 0
   bulletPrefab: {fileID: 2195179501864154324, guid: 8a2831cc42756d74ab8119c234e6a25f, type: 3}
   firePoint: {fileID: 4852348392290526781}
   attackCooldown: 0.2
@@ -343,7 +344,7 @@ MonoBehaviour:
   lootSpawnRadius: 0.2
   allUpgrades:
   - {fileID: 11400000, guid: 097ec49cff4e6834da9575c328afcba5, type: 2}
-  upgradeDropChance: 1
+  upgradeDropChance: 0.3
   bloodParticlePrefab: {fileID: 1125065753516410155, guid: a56973711655e1f44b860980855d4b99, type: 3}
   healthUI: {fileID: 7147760493242860091}
   shootSound: {fileID: 0}

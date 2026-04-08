@@ -121,6 +121,7 @@ MonoBehaviour:
     shadow: 1
     destroyTime: 0
     colliderTags: []
+  isCurrency: 0
   bounceSfx: {fileID: 0}
   bounceSfxVolume: 1
   bounceSfxMinInterval: 0.05

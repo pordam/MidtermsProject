@@ -31,8 +31,23 @@ namespace Pathfinding {
 			if (ai != null) ai.onSearchPath -= Update;
 		}
 
-		/// <summary>Updates the AI's destination every frame</summary>
-		void Update () {
+        protected override void Awake()
+        {
+            base.Awake(); // call the base implementation
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+            {
+                target = playerObj.transform;
+            }
+            else
+            {
+                Debug.LogWarning("Player not found! Make sure your player GameObject has the 'Player' tag.");
+            }
+        }
+
+
+        /// <summary>Updates the AI's destination every frame</summary>
+        void Update () {
 			if (target != null && ai != null) ai.destination = target.position;
 		}
 	}
