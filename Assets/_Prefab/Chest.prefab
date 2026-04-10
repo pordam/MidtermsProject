@@ -143,6 +143,7 @@ MonoBehaviour:
   lootSpawnRadius: 0.2
   allUpgrades:
   - {fileID: 11400000, guid: e7d7e04b3d730fc4fa0cae997e03966c, type: 2}
+  - {fileID: 11400000, guid: d57284add5eb22b44987e8b35a105d80, type: 2}
 --- !u!50 &5821565593178432117
 Rigidbody2D:
   serializedVersion: 5

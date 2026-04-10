@@ -73,6 +73,7 @@ MonoBehaviour:
     shadow: 1
     destroyTime: 0
     colliderTags: []
+  isCurrency: 1
   bounceSfx: {fileID: 0}
   bounceSfxVolume: 1
   bounceSfxMinInterval: 0.05
@@ -127,12 +128,12 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 5439474025244060994, guid: 52b23831797d5a743825cb5393dd48ac, type: 3}
+  m_Sprite: {fileID: 2714453574471835212, guid: feb2bcc6869f5f74ab020b5fc16a9fc3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 12.95, y: 7.23}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -175,8 +176,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.73142856, y: 0.73142856}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 12.95, y: 7.23}
+    newSize: {x: 12.95, y: 7.23}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -221,8 +222,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.73142856, y: 0.73142856}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 12.95, y: 7.23}
+    newSize: {x: 12.95, y: 7.23}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

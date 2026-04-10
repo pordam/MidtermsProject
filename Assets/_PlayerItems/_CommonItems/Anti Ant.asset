@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0772b6292104ab149a49e74d8b85788e, type: 3}
-  m_Name: Gym Sauce
+  m_Name: Anti Ant
   m_EditorClassIdentifier: Assembly-CSharp::PlayerUpgradeData
-  upgradeName: Gym Sauce
+  upgradeName: Anti Ant
   description: Increase sprint speed by +25%.
   rarity: 0
   statType: 4
